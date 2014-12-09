@@ -1,0 +1,961 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ecom - Online Shop Template">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Ecom - Online Shop Template</title>
+    <!-- Bootstrap core CSS -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+    <!-- Custom styles for this template -->
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <link type="text/css" rel="stylesheet" href="css/star-rating.css" />
+    <link type="text/css" rel="stylesheet" href="css/flat/all.css" />
+    <link type="text/css" rel="stylesheet" href="css/iosOverlay.css"/>
+
+    <!-- Demo Examples -->
+    <link type="text/css" rel="stylesheet" href="css/switcher.css"/>
+    <link type="text/css" rel="alternate stylesheet" href="css/styles.css" title="brown" />
+    <link type="text/css" rel="alternate stylesheet" href="css/grey.css" title="grey" />
+    <!-- END Demo Examples -->
+
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Reenie+Beanie">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+<body>
+
+<!-- Modal Login start -->
+<div class="modal signUpContent fade" id="ModalLogin" tabindex="-1" role="dialog" >
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+        <h3 class="modal-title-site text-center"> Login  to Ecom </h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group login-username">
+          <div >
+            <input name="log" id="login-user" class="form-control input"  size="20" placeholder="Enter Username" type="text">
+          </div>
+        </div>
+        <div class="form-group login-password">
+          <div >
+            <input name="Password" id="login-password" class="form-control input"  size="20" placeholder="Password" type="password">
+          </div>
+        </div>
+        <div class="form-group">
+          <div >
+            <div class="checkbox login-remember">
+              <label>
+                <input name="rememberme" value="forever" checked="checked" type="checkbox">
+                Remember Me </label>
+            </div>
+          </div>
+        </div>
+        <div >
+          <div >
+            <input name="submit" class="btn  btn-block btn-lg btn-primary" value="LOGIN" type="submit">
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <p class="text-center"> Not here before? <a data-toggle="modal"  data-dismiss="modal" href="#ModalSignup"> Sign Up. </a> <br>
+          <a href="#" > Lost your password? </a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.Modal Login --> 
+
+
+
+<!-- Modal Signup start -->
+<div class="modal signUpContent fade" id="ModalSignup" tabindex="-1" role="dialog" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+        <h3 class="modal-title-site text-center" > REGISTER </h3>
+      </div>
+      <div class="modal-body">
+        <div class="control-group"> <a class="fb_button btn  btn-block btn-lg" href="#"> SIGNUP WITH FACEBOOK </a> </div>
+        <h5 style="padding:10px 0 10px 0;" class="text-center"> OR </h5>
+        <div class="form-group reg-username">
+          <div >
+            <input name="login"  class="form-control input"  size="20" placeholder="Enter Username" type="text">
+          </div>
+        </div>
+        <div class="form-group reg-email">
+          <div >
+            <input name="reg"  class="form-control input"  size="20" placeholder="Enter Email" type="text">
+          </div>
+        </div>
+        <div class="form-group reg-password">
+          <div >
+            <input name="password"  class="form-control input"  size="20" placeholder="Password" type="password">
+          </div>
+        </div>
+        <div class="form-group">
+          <div >
+            <div class="checkbox login-remember">
+              <label>
+                <input name="rememberme" id="rememberme" value="forever" checked="checked" type="checkbox">
+                Remember Me </label>
+            </div>
+          </div>
+        </div>
+        <div >
+          <div >
+            <input name="submit" class="btn  btn-block btn-lg btn-primary" value="REGISTER" type="submit">
+          </div>
+        </div>
+  
+        
+      </div>
+      <div class="modal-footer">
+        <p class="text-center"> Already member? <a data-toggle="modal"  data-dismiss="modal" href="#ModalLogin"> Sign in </a> </p>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+<!-- .ModalSignup End --> 
+
+
+<!-- Fixed navbar start -->
+<div class="navbar navbar-fixed-top megamenu" role="navigation">
+  <div class="navbar-top" id="header_nav">
+   
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+            <div class="pull-left ">
+            <ul class="userMenu ">
+              <li><a href="help.html"><span class="hidden-xs">HELP</span>
+                <i class="fa fa-question-circle fa-2x hide visible-xs"></i></a></li>
+              <li class="phone-number"> 
+              <a  href="callto:+63936657624"> 
+              <span> <i class="fa fa-phone-square fa-2x "></i></span> 
+              <span class="hidden-xs" style="margin-left:5px"> (+639) 3665-7624 </span> </a> </li>
+            </ul>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6 no-margin no-padding">
+          <div class="pull-right">
+            <ul class="userMenu">
+                <li> <a href="account.html"><span class="hidden-xs">My Account</span> 
+                <i class="fa fa-user fa-2x hide visible-xs"></i></a> 
+                </li>
+
+                <li><a href="#" data-toggle="modal" data-target="#ModalLogin"><span class="hidden-xs">Sign In</span><i class="fa fa-sign-in fa-2x hide visible-xs"></i></a></li>
+                
+                <li class="hidden-xs"> <a href="#"  data-toggle="modal" data-target="#ModalSignup"> Create Account </a> </li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!--/.navbar-top-->
+
+  <div class="navbar navbar-default navbar-custom1">
+        <div class="container">
+          <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a> 
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-cart"> 
+                    <i class="fa fa-shopping-cart colorWhite"> </i> 
+                    <span class="cartRespons colorWhite"> Cart ($105.02) </span> 
+                    </button>
+          </div><!-- navbar-header -->
+
+          <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="cart.html">Shopping Cart</a></li>
+                        <li><a href="uploader.html" class="">Item Uploader</a></li>
+                    </ul>
+
+                        <!--- this part will be hidden for mobile version -->
+                        <div class="nav navbar-nav navbar-right hidden-xs">
+                            <div class="dropdown cartMenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                  <i class="fa fa-shopping-cart"> </i>
+                                  <span class="cartRespons"> Cart ($105.02) </span> 
+                                  <b class="caret"> </b> 
+                                </a>
+                               
+                                <div class="dropdown-menu col-lg-4 col-xs-12 col-md-4 "> 
+                                <table class="cart-table">
+                                <tbody>
+                                  <tr>
+                                    <td style="width:15%" class="#">
+                                    <a href="#"><img src="http://myxvip.com/ecom/images/product/1.jpg" alt="img"></a> 
+                                    </td>
+
+                                    <td style="width:35%">
+                                      <div class="cart-desc">
+                                      <p><a href="#"> Denim T-shirt </a> <br />
+                                        <span class="size"> 12 x 1.5 L</span> <br />
+                                        <span class="price"> $59</span></p>
+                                      </div>
+                                    </td>
+
+                                    <td style="width:20%">x 2</td>
+                                    <td style="width:15%">$118</td>
+                                    <td style="width:5%"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                  </tr>
+                                  <tr>
+                                    <td style="width:15%" class="#">
+                                    <a href="#"><img src="http://myxvip.com/ecom/images/product/2.jpg" alt="img"></a> 
+                                    </td>
+
+                                    <td style="width:35%">
+                                      <div class="cart-desc">
+                                      <p><a href="#"> G Star T-shirt </a> <br />
+                                        <span class="size"> 12 x 1.5 L</span> <br />
+                                        <span class="price"> $37</span></p>
+                                      </div>
+                                    </td>
+
+                                    <td style="width:20%">x 1</td>
+                                    <td style="width:15%">$37</td>
+                                    <td style="width:5%"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                  </tr>
+                                  <tr>
+                                    <td style="width:15%" class="#">
+                                    <a href="#"><img src="http://myxvip.com/ecom/images/product/3.jpg" alt="img"></a> 
+                                    </td>
+                                    <td style="width:35%">
+                                      <div class="cart-desc">
+                                      <p><a href="#"> Yoke Print With Roll </a> <br />
+                                        <span class="size"> 12 x 1.5 L</span> <br />
+                                        <span class="price"> $21</span></p>
+                                      </div>
+                                    </td>
+
+                                    <td style="width:20%">x 3</td>
+                                    <td style="width:15%">$63</td>
+                                    <td style="width:5%"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                  </tr>
+                                </tbody>
+                                </table>
+
+                                  <div class="cart-footer text-right">
+                                    <h4 class="text-right subtotal"> Subtotal: $105 </h4>
+                                      <a href="cart.html" class="btn btn-sm btn-danger"><i class="fa fa-shopping-cart"> </i> VIEW CART </a> 
+                                      <a class="btn btn-sm btn-primary btn-custom"> CHECKOUT </a> 
+               
+                                  </div>
+                                </div><!-- dropdown-menu -->
+                            </div><!--/.cartMenu-->
+                        </div><!--/.navbar-nav hidden-xs--> 
+          </div><!-- collapse navbar-collapse -->
+        </div><!-- container -->
+
+
+                <!-- this part is duplicate from cartMenu  keep it for mobile -->
+                <div class="navbar-cart collapse hidden-sm hidden-md hidden-lg">
+                  <div class="cartMenu col-lg-4 col-xs-12 col-md-4">
+                    <div class="miniCartTable"> 
+                       <table class="cart-table">
+                                <tbody>
+                                  <tr>
+                                    <td style="width:15%" class="#">
+                                    <a href="#"><img src="http://myxvip.com/ecom/images/product/1.jpg" alt="img"></a> 
+                                    </td>
+
+                                    <td style="width:35%">
+                                      <div class="cart-desc">
+                                      <p><a href="#"> Denim T-shirt </a> <br />
+                                        <span class="size"> 12 x 1.5 L</span> <br />
+                                        <span class="price"> $59</span></p>
+                                      </div>
+                                    </td>
+
+                                    <td style="width:20%">x 2</td>
+                                    <td style="width:15%">$118</td>
+                                    <td style="width:5%"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                  </tr>
+                                  <tr>
+                                    <td style="width:15%" class="#">
+                                    <a href="#"><img src="http://myxvip.com/ecom/images/product/2.jpg" alt="img"></a> 
+                                    </td>
+
+                                    <td style="width:35%">
+                                      <div class="cart-desc">
+                                      <p><a href="#"> G Star T-shirt </a> <br />
+                                        <span class="size"> 12 x 1.5 L</span> <br />
+                                        <span class="price"> $37</span></p>
+                                      </div>
+                                    </td>
+
+                                    <td style="width:20%">x 1</td>
+                                    <td style="width:15%">$37</td>
+                                    <td style="width:5%"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                  </tr>
+                                  <tr>
+                                    <td style="width:15%" class="#">
+                                    <a href="#"><img src="http://myxvip.com/ecom/images/product/3.jpg" alt="img"></a> 
+                                    </td>
+                                    <td style="width:35%">
+                                      <div class="cart-desc">
+                                      <p><a href="#"> Yoke Print With Roll </a> <br />
+                                        <span class="size"> 12 x 1.5 L</span> <br />
+                                        <span class="price"> $21</span></p>
+                                      </div>
+                                    </td>
+
+                                    <td style="width:20%">x 3</td>
+                                    <td style="width:15%">$63</td>
+                                    <td style="width:5%"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                  </tr>
+                                </tbody>
+                                </table>
+
+
+                      <div class="cart-footer text-right">
+                        <h4 class="text-right subtotal"> Subtotal: $105 </h4>
+                        <a href="cart.html" class="btn btn-sm btn-danger"><i class="fa fa-shopping-cart"> </i> VIEW CART </a> 
+                        <a class="btn btn-sm btn-primary btn-custom"> CHECKOUT </a> 
+                      </div><!-- cart-footer text-right -->
+                    </div><!-- miniCartTable -->
+                  </div><!--/.cartMenu--> 
+                </div><!--/.navbar-cart-->
+  </div><!-- navbar-default -->
+</div><!-- /.Fixed navbar  -->
+
+
+
+<!-- content -->
+<div class="container">
+
+
+    <div class="col-md-12 text-center">
+      <div class="heading">
+      <h1>Hello there! It is so nice to meet you. </h1>
+
+            <p class="lead">Now go buy stuff so we get rich.</p>
+<!--
+      <p class="lead">Now go buy stuff so we get rich.</p>
+    -->
+    </div>
+    </div>
+
+
+   
+
+
+    <!-- handpicked -->
+    <div class="handpicked col-sm-6">
+      <a href="details.html"><img class="img-responsive" src="http://myxvip.com/ecom/images/product/ec_guy.jpg"></a>
+                   
+        
+        <div class="col-md-6 pull-left">
+          <h3 class="h3"><a href="#"><strong>Denim Jacket</strong></a></h3>
+          <p class="product-code">Product code: <strong>ECOM1204</strong></p>
+        </div>
+                    
+        <div class="col-md-6 pull-right text-right">
+        <h1 class="big-price"><strong>$34</strong></h1>
+        </div>
+
+        <div class="clearfix"></div>
+        <hr />
+        
+        <div class="col-md-12">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label for="quantity" class="col-sm-2 control-label">Quantity</label>
+              <div class="col-xs-9">
+                <input id="quantity"
+                           type="text"
+                           value="1"
+                           name="quantity"
+                           data-bts-min="0"
+                           data-bts-max="100"
+                           data-bts-init-val=""
+                           data-bts-step="1"
+                           data-bts-decimal="0"
+                           data-bts-step-interval="100"
+                           data-bts-force-step-divisibility="round"
+                           data-bts-step-interval-delay="500"
+                           data-bts-prefix=""
+                           data-bts-postfix=""
+                           data-bts-prefix-extra-class=""
+                           data-bts-postfix-extra-class=""
+                           data-bts-booster="true"
+                           data-bts-boostat="10"
+                           data-bts-max-boosted-step="false"
+                           data-bts-mousewheel="true"
+                           data-bts-button-down-class="btn btn-default"
+                           data-bts-button-up-class="btn btn-default"
+                            />
+              </div>
+          </div>
+
+          <div class="form-group">
+            <label for="size" class="col-sm-2 control-label">Size</label>
+              <div class="col-xs-9">
+                <select class="form-control">
+                  <option>Small</option>
+                  <option>Medium</option>
+                  <option>Large</option>
+                  <option>Extra Large</option>
+                </select>
+              </div>
+          </div>
+
+          <div class="form-group">
+            <label for="color" class="col-sm-2 control-label">Color</label>
+              <div class="col-xs-10 checkbox-inline">
+                <input type="checkbox"> <label class="custom text-danger">Red</label> 
+                <input type="checkbox" checked> <label class="custom text-success">Green</label>
+                <input type="checkbox"> <label class="custom text-primary">Blue</label> 
+              </div>
+          </div>
+        </form>
+        </div>
+        <hr />
+
+        <div class="col-md-12 text-center">
+        <button class="btn btn-primary-custom btn-lg" id="loadToSuccess"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+       
+
+      <div class="col-md-12">
+      
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#details">Details</a></li>
+          <li><a data-toggle="tab" href="#reviews">Reviews</a></li>
+          <li><a data-toggle="tab" href="#shipping">Shipping</a></li>
+        </ul>
+               
+
+          <div class="tab-content">
+          <div class="tab-pane active" id="details">
+            <h4>Product Informartion</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+          </div>
+
+          <div class="tab-pane" id="reviews"> 
+          
+          <ul class="media-list">
+            <li class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="http://myxvip.com/ecom/images/user_1.jpg" style="width:64px;" alt="...">
+              </a>
+              <div class="media-body">
+                <div class="media-heading">
+                <p class="pull-left"><a href="#"><strong>John Doe</strong></a></p> 
+                <p class="pull-right review-time"><i class="fa fa-clock-o"></i> 3 mins ago.</p>
+              </div>
+              <div class="clearfix"></div>
+                <p class="text-left">Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+              </div>
+            </li>
+              <li class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="http://myxvip.com/ecom/images/user_2.jpg" style="width:64px;" alt="...">
+              </a>
+              <div class="media-body">
+                <div class="media-heading">
+                <p class="pull-left"><a href="#"><strong>Jane Smith</strong></a></p> 
+                <p class="pull-right review-time"><i class="fa fa-clock-o"></i> 5 days ago.</p>
+              </div>
+              <div class="clearfix"></div>
+                <p class="text-left">Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+              </div>
+            </li>
+          </ul>
+
+          </div><!-- reviews -->
+                              
+
+                              
+          <div class="tab-pane" id="shipping">
+          <p>Standard 1-5 business days $7.95</p>
+            <p>Two Day 2 business days $15</p>
+            <p>Next Day  1 business day  $30</p>
+
+          </div>
+        </div><!-- tab-content-->
+
+        <p class="share text-right">Share:
+          <a href="#" class="fa fa-lg fa-facebook-square"></a>
+          <a href="#" class="fa fa-lg fa-twitter-square"></a>
+          <a href="#" class="fa fa-lg fa-google-plus-square"></a>
+        </p>
+
+      </div><!-- col-md-12 -->
+    </div><!-- handpicked -->
+
+
+
+                <!-- Sidebar Grid -->
+                <div class="col-sm-6">
+                <div class="productsrow">
+                
+                      <!-- ADVERTISEMENT -->
+                      <div class="product-grid">
+                          <div class="advertisement">
+                          <h5 class="tab"><a href="#">Ads <span class="meta">via Bootstrap</span></a></h5>
+                          <a href="#"><img class="ad pull-left" alt="" src="http://myxvip.com/ecom/images/ads_logo.png" border="0" height="90" width="120"></a>
+                          <p class="ads text-left"><a href="#">Company</a> quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent.</p>
+                          <div class="clearfix"></div>
+                          </div>
+                      </div> 
+                      <!-- ADVERTISEMENT END -->
+
+
+
+
+
+                        <div class="product-grid">
+                        <div class="widget-area">
+                          <div class="container-item">
+                          <div class="item">
+                            
+                            <div class="product-images">
+                            <div class="post-header">
+                              <img src="http://myxvip.com/ecom/images/product/marta_canga.jpg"></a>
+                            </div>
+                            </div>
+
+                            <div class="item-overlay">
+                              <a href="#" id="loadToSuccess" class="item-button buy">
+                              <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="details.html" class="item-button details details-btn">
+                              <i class="fa fa-search-plus"></i>
+                              </a>
+                            
+                              <div class="sale-tag"><span>SALE</span></div>
+                            </div>
+
+                          </div><!-- item-->  
+                          </div><!-- container-item -->
+                        <div class="widget-text">
+                              <h5><a href="#">Primark Neon Scarf</a></h5>     
+                                    
+                                    <div class="entry-content">
+                                        <ul class="post-meta">
+                                            <li>Price: 
+                                              <span class="price-tag">
+                                              <del><span class="amount">$231.99</span></del> 
+                                              <span class="badge">$120.75</span>
+                                              </span>
+                                            </li>
+
+                                            <li>Tags: <a href="#">Scarf, Accessories</a>.</li>
+                                        </ul>
+                                    </div>
+                             </div>    
+
+                                      <div class="entry-footer">
+                                        <div class="col-xs-6">
+                                        <span class="datetime text-left">
+                                          <i class="fa fa-calendar"></i> 2 weeks ago</span>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <input id="input-22" value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="sx" data-glyphicon="0">
+                                      </div>
+                                      <div class="clearfix"></div>
+                                      </div>
+
+                        </div><!-- /End widget-area -->
+                        </div><!-- product-grid -->
+
+
+
+
+
+
+
+                        <div class="product-grid">
+                        <div class="widget-area">
+                          <div class="container-item">
+                          <div class="item">
+                            
+                            <div class="product-images">
+                            <div class="post-header">
+                              <img src="http://myxvip.com/ecom/images/product/josh_barrows.jpg"></a>
+                            </div>
+                            </div>
+
+                            <div class="item-overlay">
+                              <a href="#" id="loadToSuccess" class="item-button buy">
+                              <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="details.html" class="item-button details details-btn">
+                              <i class="fa fa-search-plus"></i>
+                              </a>
+                            
+                              <!--<div class="sale-tag"><span>SALE</span></div>-->
+                            </div>
+
+                          </div><!-- item-->  
+                          </div><!-- container-item -->
+                        <div class="widget-text">
+                              <h5><a href="#">Women's Snowboard Jackets</a></h5>     
+                                    
+                                    <div class="entry-content">
+                                        <ul class="post-meta">
+                                            <li>Price: 
+                                              <span class="price-tag">
+                                              <del><span class="amount">$231.99</span></del> 
+                                              <span class="badge">$120.75</span>
+                                              </span>
+                                            </li>
+
+                                            <li>Tags: <a href="#">Jacket</a>.</li>
+                                        </ul>
+                                    </div>
+                             </div>    
+
+                                      <div class="entry-footer">
+                                        <div class="col-xs-6">
+                                        <span class="datetime text-left">
+                                          <i class="fa fa-calendar"></i> 4 weeks ago</span>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <input id="input-22" value="4.5" type="number" class="rating" min="0" max="5" step="0.5" data-size="sx" data-glyphicon="0">
+                                      </div>
+                                      <div class="clearfix"></div>
+                                      </div>
+
+                        </div><!-- /End widget-area -->
+                        </div><!-- product-grid -->
+
+
+
+
+                        <div class="product-grid">
+                        <div class="widget-area">
+                          <div class="container-item">
+                          <div class="item">
+                            
+                            <div class="product-images">
+                            <div class="post-header">
+                              <img src="http://myxvip.com/ecom/images/product/aud.jpg"></a>
+                            </div>
+                            </div>
+
+                            <div class="item-overlay">
+                              <a href="#" id="loadToSuccess" class="item-button buy">
+                              <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="details.html" class="item-button details details-btn">
+                              <i class="fa fa-search-plus"></i>
+                              </a>
+                            
+                              <div class="sale-tag"><span>SALE</span></div>
+                            </div>
+
+                          </div><!-- item-->  
+                          </div><!-- container-item -->
+                        <div class="widget-text">
+                              <h5><a href="#">White Tees with B/W Print</a></h5>     
+                                    
+                                    <div class="entry-content">
+                                        <ul class="post-meta">
+                                            <li>Price: 
+                                              <span class="price-tag">
+                                              <del><span class="amount">$100.00</span></del> 
+                                              <span class="badge">$75.99</span>
+                                              </span>
+                                            </li>
+
+                                            <li>Tags: <a href="#">T-shirt</a>.</li>
+                                        </ul>
+                                    </div>
+                             </div>    
+
+                                      <div class="entry-footer">
+                                        <div class="col-xs-6">
+                                        <span class="datetime text-left">
+                                          <i class="fa fa-calendar"></i> 1 month ago</span>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <input id="input-22" value="3" type="number" class="rating" min="0" max="5" step="0.5" data-size="sx" data-glyphicon="0">
+                                      </div>
+                                      <div class="clearfix"></div>
+                                      </div>
+
+                        </div><!-- /End widget-area -->
+                        </div><!-- product-grid -->
+
+
+
+
+                        <div class="product-grid">
+                        <div class="widget-area">
+                          <div class="container-item">
+                          <div class="item">
+                            
+                            <div class="product-images">
+                            <div class="post-header">
+                              <img src="http://myxvip.com/ecom/images/product/aude.jpg"></a>
+                            </div>
+                            </div>
+
+                            <div class="item-overlay">
+                              <a href="#" id="loadToSuccess" class="item-button buy">
+                              <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="details.html" class="item-button details details-btn">
+                              <i class="fa fa-search-plus"></i>
+                              </a>
+                            
+                              <!--<div class="sale-tag"><span>SALE</span></div>-->
+                            </div>
+
+                          </div><!-- item-->  
+                          </div><!-- container-item -->
+                        <div class="widget-text">
+                              <h5><a href="#">Couple Leather Jackets</a></h5>     
+                                    
+                                    <div class="entry-content">
+                                        <ul class="post-meta">
+                                            <li>Price: 
+                                              <span class="price-tag">
+                                              <del><span class="amount">$636.45</span></del> 
+                                              <span class="badge">$470.00</span>
+                                              </span>
+                                            </li>
+
+                                            <li>Tags: <a href="#">Jacket</a>.</li>
+                                        </ul>
+                                    </div>
+                             </div>    
+
+                                      <div class="entry-footer">
+                                        <div class="col-xs-6">
+                                        <span class="datetime text-left">
+                                          <i class="fa fa-calendar"></i> 2 months ago</span>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <input id="input-22" value="5" type="number" class="rating" min="0" max="5" step="0.5" data-size="sx" data-glyphicon="0">
+                                      </div>
+                                      <div class="clearfix"></div>
+                                      </div>
+
+                        </div><!-- /End widget-area -->
+                        </div><!-- product-grid -->
+
+
+                        <div class="product-grid">
+                        <div class="widget-area">
+                          <div class="container-item">
+                          <div class="item">
+                            
+                            <div class="product-images">
+                            <div class="post-header">
+                              <img src="http://myxvip.com/ecom/images/product/zerokhmer.jpg"></a>
+                            </div>
+                            </div>
+
+                            <div class="item-overlay">
+                              <a href="#" id="loadToSuccess" class="item-button buy">
+                              <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="details.html" class="item-button details details-btn">
+                              <i class="fa fa-search-plus"></i>
+                              </a>
+                            
+                              <div class="sale-tag"><span>SALE</span></div>
+                            </div>
+
+                          </div><!-- item-->  
+                          </div><!-- container-item -->
+                        <div class="widget-text">
+                              <h5><a href="#">Washed Jeans</a></h5>     
+                                    
+                                    <div class="entry-content">
+                                        <ul class="post-meta">
+                                            <li>Price: 
+                                              <span class="price-tag">
+                                              <del><span class="amount">$120.19</span></del> 
+                                              <span class="badge">$100.99</span>
+                                              </span>
+                                            </li>
+
+                                            <li>Tags: <a href="#">Jeans</a>.</li>
+                                        </ul>
+                                    </div>
+                             </div>    
+
+                                      <div class="entry-footer">
+                                        <div class="col-xs-6">
+                                        <span class="datetime text-left">
+                                          <i class="fa fa-calendar"></i> 3 months ago</span>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <input id="input-22" value="2.5" type="number" class="rating" min="0" max="5" step="0.5" data-size="sx" data-glyphicon="0">
+                                      </div>
+                                      <div class="clearfix"></div>
+                                      </div>
+
+                        </div><!-- /End widget-area -->
+                        </div><!-- product-grid -->
+
+
+
+                </div><!-- productsrow -->
+                </div><!--col-sm-6 -->
+                <!-- /Sidebar Grid -->
+
+</div><!-- /container -->
+<!-- /content -->
+
+
+    <div class="clearfix"></div>
+    <!-- =======================================
+    Footer Start
+    ======================================== -->
+    <footer class="dark-bg">
+      <div class="container inner">
+        <div class="row">
+          
+          <div class="col-md-3 col-sm-6 inner">
+
+            <div class="footer-logo">
+            <a href="#"><img src="http://myxvip.com/ecom/images/footer_logo.png" alt=""></a>
+            </div>
+            <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+          </div><!-- /.col -->
+          
+              <div class="col-md-3 col-sm-6 inner">
+                <h4>Best Seller</h4>
+                
+                <div class="row">               
+                  <div class="col-xs-6 thumb">
+                  <a href="#"><img src="http://myxvip.com/ecom/images/best_seller1.jpg" alt=""></a>
+                    <div class="thehover"><i class="fa fa-link fa-4x"></i></div>
+                  </div><!-- /.thumb -->
+                  
+                  <div class="col-xs-6 thumb">
+                  <a href="#"><img src="http://myxvip.com/ecom/images/best_seller2.jpg" alt=""></a>
+                  <div class="thehover"><i class="fa fa-link fa-4x"></i></div>
+                  </div><!-- /.thumb -->
+                  
+                  <div class="col-xs-6 thumb">
+                  <a href="#"><img src="http://myxvip.com/ecom/images/best_seller3.jpg" alt=""></a>
+                  <div class="thehover"><i class="fa fa-link fa-4x"></i></div>
+                  </div><!-- /.thumb -->
+                  
+                  <div class="col-xs-6 thumb">
+                  <a href="#"><img src="http://myxvip.com/ecom/images/best_seller4.jpg" alt=""></a>
+                  <div class="thehover"><i class="fa fa-link fa-4x"></i></div>
+                  </div><!-- /.thumb -->  
+                </div><!-- /.row -->
+              </div><!-- /.col -->
+          
+          
+              <div class="col-md-3 col-sm-6 inner">
+                <h4>Get In Touch</h4>
+                <p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+                <ul class="contacts">
+                  <li><i class="fa fa-map-marker"></i> Mountain View, CA 94043</li>
+                  <li><i class="fa fa-phone"></i> +00 (123) 456 78 90</li>
+                  <li><i class="fa fa-envelope-o"></i> <a href="#">info@domain.com</a></li>
+                </ul><!-- /.contacts -->
+              </div><!-- /.col -->
+          
+              <div class="col-md-3 col-sm-6 inner">
+                <h4>Free updates</h4>
+                <p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+                
+                <form class="form-inline newsletter" role="form">
+                  <label class="sr-only" for="exampleInputEmail">Email address</label>
+                  <input type="email" class="email" placeholder="">
+                  <button type="submit" class="btn btn-success btn-submit">Subscribe</button>
+                </form>
+            
+              </div><!-- /.col -->
+        </div><!-- /.row --> 
+      </div><!-- container inner-->
+
+
+        <div class="footer-bottom">
+        <div class="container inner">
+        <div class="row">
+          <div class="col-md-6">
+          <p class="copy">&copy; 2014 ecom. All rights reserved.</p>
+          </div>
+          
+          <div class="col-md-6">
+            <ul class="footer-menu">
+              <li><a href="tos.html">Terms</a></li>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="help.html">Help Center</a></li>
+            </ul><!-- .footer-menu -->
+          </div>
+        </div><!-- /.row --> 
+        </div><!-- container inner-->
+        <div class="clearfix"></div>
+        </div><!-- .footer-bottom -->
+
+    </footer>
+    <!-- =======================================
+    Footer End
+    ======================================== -->
+
+
+    <!-- ADD Switcher -->
+      <div class="demo_changer">
+          <div class="demo-icon"><i class="fa fa-cog fa-2x"></i></div>
+          <div class="form_holder">
+              <div class="line"></div>
+              <p>CHOOSE YOUR COLOR</p>
+              <p>This plugin uses cookies. Choose a predefined color scheme here.</p>
+            <div class="predefined_styles">
+            <ul id="switcher">
+              <li id="brown"><a href="#" class="styleswitch" rel="brown"><img src="http://myxvip.com/ecom/images/placeholder.png"/></a></li>
+              <li id="grey"><a href="#" class="styleswitch" rel="grey"><img src="http://myxvip.com/ecom/images/placeholder.png"/></a></li>
+            </ul>
+            </div>
+          <span><a rel="stylesheet" class="styleswitch" href="?default=true">DEFAULT STYLE</a></span>
+        <div class="line"></div>
+          </div>
+      </div>
+    <!-- END Switcher -->
+
+
+
+   <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/star-rating.js"></script>
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/icheck.js"></script>
+    <!--Touch Spin -->
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/bootstrap.touchspin.js"></script>
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/iosOverlay.js"></script>
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/spin.min.js"></script>
+
+    <!-- DEMO -->
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/color_switcher.js"></script>
+    <script type="text/javascript" src="http://myxvip.com/ecom/js/custom.js"></script>
+
+  </body>
+</html>
