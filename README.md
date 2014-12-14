@@ -8,6 +8,7 @@ small script for a online store
  - [bootstrap 2.x to 3.x](http://getbootstrap.com/migration/)
  - [P](http://themeforest.net/item/la-boutique-responsive-ecommerce-template/5573130)
  - [Preview](http://alpha.laboutiquetheme.com/)
+ - [preview 2 base](http://myxvip.com/ecom/index.html)
 
 **git commands para o c9.io**
  - `git add <file>` -> *<file>*
