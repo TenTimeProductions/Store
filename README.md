@@ -10,5 +10,5 @@ small script for a online store
  - [Preview](http://alpha.laboutiquetheme.com/)
 
 **git commands**
-`git pull` quando não existe nenhuma alteração para fazer commit mas há atualizacoes para fazer
-`git commit -m "[mensagem descritiva]"` quando se fizer alguma alteracao e se quiser fazer commit
+ - `git pull` -> quando não existe nenhuma alteração para fazer commit mas há atualizacoes para fazer
+ - `git commit -m "[mensagem descritiva]"` -> quando se fizer alguma alteracao e se quiser fazer commit
