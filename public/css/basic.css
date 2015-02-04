@@ -1,3 +1,26 @@
+/***********************************************
+ * colors
+ ***********************************************
+ * 
+ * normal color (gray) 		-> #9C9C9C;
+ * hover  color (gray) 		-> #60C0E1 (active blue) / #9C9C9C (normal gray) / #AFDFF0 (light blue)
+ * active color (dark gray) -> #60C0E1;
+ * 
+ ***********************************************
+ * text size
+ ***********************************************
+ * 
+ * title 		black	(32pt) 	-> 42px/2.55em
+ * subTitle 	bold 	(28pt) 	-> 37px/2.3em
+ * body text	regular (18pt) 	-> 24px/1.5em
+ * 
+ ***********************************************
+*/
+
+/*****************************/
+/* default font text */
+/*****************************/
+
 /*SCROLL BAR*/
 ::-webkit-scrollbar {  
     width: 12px;  
@@ -50,7 +73,12 @@
 	border: none;
 	padding-right: 20px;
 	outline: none;
-	box-shadow: inset 1px 1px 2px #60C0E1, 1px 1px 2px #60C0E1;
+	border: 1px solid #9C9C9C;
+	transition: all 0.4s;
+}
+.form input:hover,.form input:active, .form input:focus{
+	border: 1px solid #60C0E1;
+	color: #60C0E1;
 }
 .form.red input{
 	box-shadow: inset 1px 1px 2px #C00303, 1px 1px 2px #C00303;
@@ -76,4 +104,8 @@
 }
 .form > input.lg{
 	width:500px;
+}
+
+.border-active{
+	border: 1px solid #60C0E1;
 }
