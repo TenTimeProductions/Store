@@ -1,0 +1,79 @@
+/*SCROLL BAR*/
+::-webkit-scrollbar {  
+    width: 12px;  
+}  
+::-webkit-scrollbar-track {  
+    background-color: #eaeaea;  
+    border-left: 1px solid #ccc;  
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #ccc;  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #aaa;  
+} 
+/*INPUTS*/
+/*CLASS PARA BOTOES DE PESQUISA*/
+.search input[type=text]{
+	padding-left: 5px;
+    background-position: 95% 10px;
+    background-repeat: no-repeat;
+	width:100%; 
+	border:0;
+	border-bottom:1px solid #CACDD4; 
+	outline: 0;
+	border:1; 
+	margin:0; 
+	height:40px; 
+	line-height:30px;
+	background-color: #F5F6F8;
+}
+.search{
+	padding:10px 0 20px 0;
+}
+.alinhar{  /*METER CLASSE NAS DIVS ANTES DA INPUT*/
+	display:relative;
+	display: inline-block;
+}
+.alinhar > button{ /*BOTAO DE PESQUISAR DENTRO DA INPUT*/
+	position:absolute;
+	margin-top: 10px;
+	margin-left: -20px;
+	background-color: transparent;
+	border:none;
+}
+/*FORMULARIO*/
+.form input{
+	background-color: transparent;
+	border-radius: 5px;
+	padding-left: 10px;
+	border: none;
+	padding-right: 20px;
+	outline: none;
+	box-shadow: inset 1px 1px 2px #60C0E1, 1px 1px 2px #60C0E1;
+}
+.form.red input{
+	box-shadow: inset 1px 1px 2px #C00303, 1px 1px 2px #C00303;
+}
+.form.green input{
+	box-shadow: inset 1px 1px 2px #43B515, 1px 1px 2px #43B515;
+}
+.form input[type=text]{
+	height:35px;
+	width:200px;
+	margin: 0 0 10px 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #39A6CB;
+}
+.form > input.xs{
+	width:100px;
+}
+.form > input.sm{
+	width:200px;
+}
+.form > input.md{
+	width:300px;
+}
+.form > input.lg{
+	width:500px;
+}

@@ -1,13 +1,18 @@
 body{
 	background-color: #F5F6F8;
 }
+header{
+	height: 70px;
+	margin-bottom: 20px;
+}
 .header{
-	width:100%;
-	height: 9%px;
-	padding:20px;
-	background-color: white;
-	border:1px solid #ccc;
-	box-shadow: 0 0 3px #888888;
+	width: 100%;
+	padding: 20px;
+	background-color: #FFF;
+	box-shadow: 0 0 3px 1px #D3D1D1;
+	position: fixed;
+	z-index: 10;
+	height: 70px;
 }
 .header h1{
 	margin:0;
@@ -62,6 +67,8 @@ hr{
 	box-shadow: 1px 1px 5px #C7CCD1;
 	border-left: 5px solid #7CC8E4;
 	border-bottom : 2px solid #C7CCD1;
+	background: #fff;
+	padding: 20px;
 }
 .header > .logo img{
 	width:80px;
