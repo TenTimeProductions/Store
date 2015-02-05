@@ -50,3 +50,35 @@
 .header > .login img{
 	width:auto;
 }
+
+
+/*****************************************************************
+ *****************************************************************
+ **																**
+ **						Sidebar Menu 							**
+ **																**
+ *****************************************************************
+ ****************************************************************/
+.menu-topic{ 
+	font-size: 13px;
+	color: #A6A6A6;
+	margin: 5px 0;
+	text-transform: capitalize;
+	font-weight: 300;
+}
+.sidebar-menu a{
+	color: #727677;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.sidebar-menu li.item-menu.active:before{
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	background: #60C0E1;
+	content: "";
+    display: block;
+    position: absolute;
+    top: 38%;
+}
