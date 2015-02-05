@@ -10,6 +10,7 @@
 
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="public/css/jasny-bootstrap.css">
     <link rel="stylesheet" href="public/css/icons.css">
     <link rel="stylesheet" href="public/css/basic.css">
     <link rel="stylesheet" href="public/css/main.css">
@@ -133,6 +134,7 @@
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="public/js/main.js"></script>
+    <script type="text/javascript" src="public/js/jasny-bootstrap.js"></script>
 </body>
 
 </html>
