@@ -9,6 +9,47 @@
         <hr>
     </div>
     <div class="row">
+    	<div class="col-sm-12 coluna">
+			<div class="col-sm-3">
+				<div class="row header2">
+					<h3 class="text-center">1990</h3>
+					<p class="text-center">Followers</p>
+				</div>
+				<div class="row header2">
+					<h3 class="text-center">1990</h3>
+					<p class="text-center">following</p>
+				</div>	
+				<div class="row header2">
+					<h3 class="text-center">1990</h3>
+					<p class="text-center">Monthly earnings</p>
+				</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="hr vertical"></div>
+			</div>
+			<div class="col-sm-5">
+				<div class="row">
+					<div class="col-sm-2 header2">
+						<h3>Titulo</h3> 
+						<p class="texto">Cargo</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="texto-sm">LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 no-padding">
+						<div class="foto_border"><div class="foto"></div></div>
+						<div>
+							<button type="submit" class="btn btn-info">Follow</button>
+	                		<button type="reset" class="btn btn-success">Add</button>
+	                	</div>
+			</div>
+		</div>
+    </div>
+    <div class="row">
         <div class="col-sm-12 coluna">
 	        <!--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-->
 	        <form class="form" role="form" method="POST" action "">
@@ -23,7 +64,7 @@
 	                <label class="col-sm-2 control-label">Last name:</label>
 	                <div class="col-sm-8">
 	                    <input class="form-control" type="text" placeholder="Galvan" />
-	                </div>
+	                </div>	
 	            </div>
 	            <div class="row">
 	                <label class="col-sm-2 control-label">Company:</label>
