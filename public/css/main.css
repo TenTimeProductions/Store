@@ -21,7 +21,14 @@
 	padding:0;
 	display:inline-block; 
 }
-
+.nav > li > a {
+	position: relative;
+	display: block;
+	padding: 5px 15px;
+	color: #656767;
+	font-weight: 500;
+	font-size: 15px;
+}
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
@@ -66,12 +73,9 @@
 	text-transform: capitalize;
 	font-weight: 300;
 }
-.sidebar-menu a{
-	color: #727677;
-	font-weight: 500;
-	font-size: 17px;
+.sidebar-menu.affix{
+	top: 90px;
 }
-
 .sidebar-menu li.item-menu.active:before{
 	border-radius: 50%;
 	width: 8px;

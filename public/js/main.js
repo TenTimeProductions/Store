@@ -1,6 +1,6 @@
 //the reason for the odd-looking selector is to listen for the click event
 // on links that don't even exist yet - i.e. are loaded from the server.
-$('#tabs').on('click','.tablink,#prodTabs a',function (e) {
+$('.sidebar-menu').on('click','.item-menu a',function (e) {
     e.preventDefault();
     var url = $(this).attr("data-url");
 
@@ -8,7 +8,7 @@ $('#tabs').on('click','.tablink,#prodTabs a',function (e) {
         var pane = $(this), href = this.hash;
 
         // ajax load from data-url
-        $(href).load(url,function(result){      
+        $(href).load("pages/"+url,function(result){      
             pane.tab('show');
         });
     } else {
