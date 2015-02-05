@@ -1,10 +1,11 @@
-body{
-	background-color: #F5F6F8;
-}
-header{
-	height: 70px;
-	margin-bottom: 20px;
-}
+
+/*****************************************************************
+ *****************************************************************
+ **																**
+ **							 Header 							**
+ **																**
+ *****************************************************************
+ ****************************************************************/
 .header{
 	width: 100%;
 	padding: 20px;
@@ -20,26 +21,7 @@ header{
 	padding:0;
 	display:inline-block; 
 }
-.search input[type=text]{
-	background-image: url("img/lupa.png");
-    background-position: 95% 10px;
-    background-repeat: no-repeat;
-	width:100%; 
-	border:0;
-	border-bottom:1px solid #CACDD4; 
-	outline: 0;
-	border:1; 
-	margin:0; 
-	height:40px; 
-	line-height:30px;
-	background-color: #F5F6F8;
-}
-.search{
-	padding:10px 0 20px 0;
-}
-hr{
-	border-color:#CACDD4;
-}
+
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
@@ -62,31 +44,9 @@ hr{
 	font-family: Arial, Helvetica, sans-serif;
 	color:#C7CCD1;
 }
-.coluna{
-	margin: 10px 0 10px 0; 
-	box-shadow: 1px 1px 5px #C7CCD1;
-	border-left: 5px solid #7CC8E4;
-	border-bottom : 2px solid #C7CCD1;
-	background: #fff;
-	padding: 20px;
-}
 .header > .logo img{
 	width:80px;
 }
 .header > .login img{
 	width:auto;
 }
-/*SCROLL BAR*/
-::-webkit-scrollbar {  
-    width: 12px;  
-}  
-::-webkit-scrollbar-track {  
-    background-color: #eaeaea;  
-    border-left: 1px solid #ccc;  
-}  
-::-webkit-scrollbar-thumb {  
-    background-color: #ccc;  
-}  
-::-webkit-scrollbar-thumb:hover {  
-    background-color: #aaa;  
-} 

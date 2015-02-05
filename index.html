@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/excite-bike/jquery-ui.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="public/css/icons.css">
     <link rel="stylesheet" href="public/css/basic.css">
     <link rel="stylesheet" href="public/css/main.css">
 
@@ -33,22 +37,37 @@
     <div class="col-sm-offset-1 col-sm-10 body2">
         <!--BARRA DE PESQUISA-->
         <div class="row search">
-            <div class="col-sm-3 col-sm-offset-9 alinhar">
-                <input type="text" name="search" placeholder="Global search" />
-                <button type="submit" name="pesquisa"><span class="glyph icon-search"></span>
-                </button>
+            <div class="form-group col-sm-3 col-sm-offset-9 alinhar">
+                <div class="icon-addon addon-md">
+                    <input type="text" placeholder="Search" class="form-control" id="search" name="search">
+                    <label for="search" class="icon-icomoon icon-search" rel="tooltip" title="email"></label>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-2">
                 <ul class="nav nav-pills nav-stacked">
-                    <li role="presentation" class="active"><a href="#home" data-toggle="tab" onClick()>Home</a>
+                	<li><span class="title-topic">General</span></li>
+                    <li role="presentation" class="active"><a href="#home" data-toggle="tab" >Home</a>
                     </li>
                     <li role="presentation"><a href="#profile" data-toggle="tab">Profile</a>
                     </li>
                     <li role="presentation"><a href="#mensagens" data-toggle="tab">Messages</a>
                     </li>
                     <hr>
+                	<li><span class="title-topic">Administrador</span></li>
+                    <li role="presentation"><a href="#morestuff" data-toggle="tab">More Stuff</a>
+                    </li>
+                    <li role="presentation"><a href="#bla2" data-toggle="tab">More Stuff</a>
+                    </li>
+                    <hr>
+                	<li><span class="title-topic">Vendedor</span></li>
+                    <li role="presentation"><a href="#morestuff" data-toggle="tab">More Stuff</a>
+                    </li>
+                    <li role="presentation"><a href="#bla2" data-toggle="tab">More Stuff</a>
+                    </li>
+                    <hr>
+                	<li><span class="title-topic">Cliente</span></li>
                     <li role="presentation"><a href="#morestuff" data-toggle="tab">More Stuff</a>
                     </li>
                     <li role="presentation"><a href="#bla2" data-toggle="tab">More Stuff</a>
@@ -74,16 +93,32 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-12 coluna">
                                     <form class="form">
                                         <!--ALTERAR AQUI CASO QUEIRA O FORM COM OUTRA COR-->
-                                        <input type="text" placeholder="teste" class="xs" />
-                                        <input type="text" placeholder="teste" class="sm" />
-                                        <input type="text" placeholder="teste" class="md" />
-                                        <input type="text" placeholder="teste" class="lg" />
+                                    	<div class="form-group col-xs-12 col-md-8">
+                                    		<label for="" class="title-topic">label</label>
+                                    		<input type="text" class="form-control xs" id="" placeholder="Input field">
+                                    	</div>
+                                    	<div class="form-group col-xs-12 col-md-8">
+                                    		<label for="" class="title-topic">label</label>
+                                    		<input type="text" class="form-control sm" id="" placeholder="Input field">
+                                    	</div>
+                                    	<div class="form-group col-xs-12 col-md-8">
+                                    		<label for="" class="title-topic">label</label>
+                                    		<input type="text" class="form-control md" id="" placeholder="Input field">
+                                    	</div>
+                                    	<div class="form-group col-xs-12 col-md-8">
+                                    		<label for="" class="title-topic">label</label>
+                                    		<input type="text" class="form-control lg" id="" placeholder="Input field">
+                                    	</div>
                                         <label class="RadioBox RadioBoxLabel">
                                             <input type="checkbox" placeholder="teste" />heuheu</label>
                                     </form>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
                                     <p class="texto"> Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum</p>
                                 </div>
                             </div>
