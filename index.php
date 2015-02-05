@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Gestão</title>
+    <title>Dashboard | FM Group - TenTimesProductions</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
@@ -49,13 +49,13 @@
                     <span class="menu-topic">General</span>
                 </li>
                 <li class="item-menu" role="presentation" class="active">
-                    <a href="#home" data-toggle="tab" data-url="dashboard.html">Home</a>
+                    <a href="#home" data-toggle="tab" data-url="dashboard.php">Home</a>
                 </li>
                 <li class="item-menu" role="presentation">
-                    <a href="#profile" data-toggle="tab" data-url="user-info.html">Profile</a>
+                    <a href="#profile" data-toggle="tab" data-url="user-info.php">Profile</a>
                 </li>
                 <li class="item-menu" role="presentation">
-                    <a href="#mensagens" data-toggle="tab" data-url="messages.html">Messages</a>
+                    <a href="#mensagens" data-toggle="tab" data-url="messages.php">Messages</a>
                 </li>
 
                 <hr>
@@ -92,6 +92,12 @@
                 </li>
                 <li class="item-menu" role="presentation">
                     <a href="#bla2" data-toggle="tab">More Stuff</a>
+                </li>
+
+                <hr>
+
+                <li>
+                    <span class="menu-topic">2015 © TenTimesProductions</span>
                 </li>
             </ul>
         </div>

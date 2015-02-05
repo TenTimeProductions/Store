@@ -1,0 +1,484 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bs3-j",
+				"bs3-cdn:js	bs3-cdn-js"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bs3-",
+				"bs3-cdn	bs3-cdn"
+			],
+			[
+				"pa",
+				"pad	padding"
+			],
+			[
+				"border-radius-l",
+				"border-radius-top-left"
+			],
+			[
+				"re",
+				"relative_path"
+			],
+			[
+				"bs3-col",
+				"bs3-col:10	bs3-col-10"
+			],
+			[
+				"ma",
+				"mar	margin"
+			],
+			[
+				"bor",
+				"border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5388,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"intal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/Miguel/Downloads/migas_estilos.css",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/slider-animation.js",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/classie.js",
+		"/G/wamp/www/Projetos/Pricelless/assets/examples/ArticleIntroEffects/index.html",
+		"/G/wamp/www/Projetos/Pricelless/assets/examples/ArticleIntroEffects/css/component.css",
+		"/G/wamp/www/Projetos/Pricelless/templates/slider.php",
+		"/G/wamp/www/Projetos/Pricelless/templates/footer.php",
+		"/G/wamp/www/Projetos/Pricelless/contact.php",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/basic.css",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/bootstrap.js",
+		"/G/wamp/www/Projetos/Pricelless/templates/menu.php",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/menu.css",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/carousel-touch.min.js",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/carousel-touch.min.css",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/index.js",
+		"/G/wamp/www/Projetos/Pricelless/members.php",
+		"/G/wamp/www/Projetos/Pricelless/index.php",
+		"/G/wamp/www/Projetos/Pricelless/services.php",
+		"/G/wamp/www/Projetos/Pricelless/templates/tabs-services.php",
+		"/G/wamp/www/Projetos/Pricelless/franchise.php",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/bootstrap.min.css",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/toucheffects.js",
+		"/C/Users/Miguel/AppData/Roaming/Skype/My Skype Received Files/bthelp.php",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/icons-template.css",
+		"/G/wamp/www/Projetos/Pricelless/about.php",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/iconmoon.css",
+		"/C/Users/Miguel/AppData/Local/Temp/Temp1_icomoon (2).zip/style.css",
+		"/G/wamp/www/Projetos/Pricelless/templates/header.php",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/animate.css",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/wow.min.js",
+		"/C/Users/Miguel/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Miguel/Downloads/animate.css",
+		"/C/Users/Miguel/AppData/Local/Temp/Temp1_ArticleIntroEffects.zip/ArticleIntroEffects/index.html",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/marketing-old-ie.css",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/marketing.css",
+		"/C/Users/Miguel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/maps-contact.js",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/gmaps.js",
+		"/C/Users/Miguel/AppData/Local/Temp/Temp1_custom-google-map3.zip/custom-google-map/index.html",
+		"/C/Users/Miguel/AppData/Local/Temp/Temp1_custom-google-map3.zip/custom-google-map/js/main.js",
+		"/G/wamp/www/Projetos/Pricelless/sftp-config.json",
+		"/G/wamp/www/Projetos/Pricelless/index (3).html",
+		"/C/Users/Miguel/AppData/Local/Temp/Temp1_icomoon (1).zip/demo.html",
+		"/C/Users/Miguel/AppData/Local/Temp/Temp1_icomoon.zip/demo-files/demo.js",
+		"/C/Users/Miguel/AppData/Local/Temp/Temp1_icomoon.zip/demo-files/demo.css",
+		"/C/Users/Miguel/AppData/Local/Temp/Temp1_icomoon.zip/demo.html",
+		"/G/wamp/www/Projetos/Pricelless/assets/css/grid-system.css",
+		"/C/Users/Miguel/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/G/wamp/www/Projetos/Pricelless/index (2).html",
+		"/G/wamp/www/Projetos/Pricelless/pricelless-proj.sublime-project",
+		"/C/Users/Miguel/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/G/wamp/www/Projetos/Pricelless/assets/js/cbpFWTabs.js",
+		"/G/wamp/www/Projetos/Pricelless/index.html",
+		"/C/Users/Miguel/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/Miguel/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Miguel/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Miguel/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/C/Users/Miguel/Desktop/Trabalho/Projetos/Pricelless/assets/js/modernizr.custom.js",
+		"/C/Users/Miguel/Desktop/Trabalho/Snippets/tympanus.net/TabStylesInspiration/index.html",
+		"/C/Users/Miguel/Desktop/Trabalho/Snippets/tympanus.net/TabStylesInspiration/css/demo.css",
+		"/C/Users/Miguel/Desktop/Projetos/Snippets tympanus.net/TabStylesInspiration/index.html",
+		"/C/Users/Miguel/Desktop/Projetos/Will ing/post-page.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"G:\\wamp\\www\\Projetos\\Pricelless",
+			"*.php",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"intro-effect-push",
+			"demo-1",
+			"menu-priceless",
+			"Logo Priceless",
+			"priceless",
+			"66",
+			".5",
+			"inverse",
+			"fadeInUp",
+			"DURATION",
+			"duration",
+			"emulateTransitionEnd",
+			"1s",
+			".8",
+			".carousel-inner>.item{",
+			"1",
+			"3s",
+			"6",
+			".carousel-inner>.item{",
+			".6",
+			"6",
+			".close",
+			"opacity",
+			" fade ",
+			"fade",
+			"box-particulares",
+			"3",
+			"\n										<span class=\"icon-highlight-remove flip-again-card\"></span>",
+			"<div class=\"face back\">",
+			"font",
+			"/*",
+			" /*",
+			"  -",
+			"back",
+			"front",
+			"card",
+			".flip ",
+			".flip",
+			"\n									<div class=\"front\">",
+			"\n									<div class=\"front\">\n										<span class=\"icon-base-sells icon-sells-4\"></span>\n										<div class=\"text-size-subTitle text-color-hover-dark\"><span>Energia</span></div>\n									</div>",
+			"<div class=\"mini-square\">",
+			"animated",
+			":hover",
+			".flip-container:hover .back,",
+			"tadda",
+			"pulse",
+			"bounce",
+			" icon-caption-services",
+			" none !important",
+			" */",
+			"/* ",
+			"left-text",
+			"text-left",
+			"4",
+			"fadeInUp",
+			"500px",
+			"1000",
+			"10",
+			"1s",
+			"1",
+			"normal",
+			"title",
+			"style=\"margin-bottom:10px;\"",
+			"figcaption",
+			"img",
+			"figure",
+			"<div class=\"text-size-subTitle text-color-hover-dark\"",
+			"col-xs-12",
+			"\n	width: 70px;\n	height: 100px;",
+			"sells-9",
+			"sells-7",
+			"sells-6",
+			"sells-5",
+			"sells-4",
+			"square-grid",
+			"text-step",
+			"\n								\n								<div class=\"arrow-pointer\"></div>",
+			" #ededed",
+			"#form-page",
+			"form-control",
+			"#form-footer",
+			"fff",
+			"footer",
+			".form-control",
+			"7",
+			"90",
+			"\n	border-bottom: 2px solid rgb(161, 190, 66);",
+			"id=\"about",
+			"id=\"services",
+			"id=\"members",
+			"id=\"testemunho",
+			"#testemunho",
+			"110",
+			"icon-sells",
+			"franchise-home-text",
+			"col-md-offset-2 ",
+			"\n									</blockquote>",
+			"\n									<blockquote>",
+			"portfolio",
+			"arrow",
+			"active",
+			"5px",
+			"-radius",
+			"subTitle",
+			"div-space",
+			"background:",
+			"icon-sells",
+			"\n	margin: 30px auto 10px;",
+			"\n	display: block;\n	background-repeat: no-repeat;",
+			"d",
+			"\n	display: block;\n	background-repeat: no-repeat;",
+			"\n	background-size: contain;",
+			"icon",
+			"border",
+			"border-radius",
+			"text-center",
+			"padding-sides",
+			" caps-text",
+			"6",
+			"normal",
+			"row",
+			"text-size-title text-color-normal",
+			"5",
+			"btn-dark",
+			"justify",
+			" client-",
+			"col-xs-4",
+			"{"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "store-project.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"G:\\wamp\\www\\Projetos\\Pricelless\\pricelless-proj.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
