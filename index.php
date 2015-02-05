@@ -52,7 +52,7 @@
                     <a href="#home" data-toggle="tab" data-url="dashboard.php">Home</a>
                 </li>
                 <li class="item-menu" role="presentation">
-                    <a href="#profile" data-toggle="tab" data-url="user-info.php">Profile</a>
+                    <a href="#profile" data-toggle="tab" data-url="perfil.php">Profile</a>
                 </li>
                 <li class="item-menu" role="presentation">
                     <a href="#mensagens" data-toggle="tab" data-url="messages.php">Messages</a>
