@@ -12,16 +12,16 @@
     	<div class="col-sm-12 coluna">
 			<div class="col-sm-3">
 				<div class="row header2">
-					<h3 class="text-center">1990</h3>
-					<p class="text-center">Followers</p>
+					<h3 class="text-center">12</h3>
+					<p class="text-center">Cliente</p>
 				</div>
 				<div class="row header2">
-					<h3 class="text-center">1990</h3>
-					<p class="text-center">following</p>
+					<h3 class="text-center">123</h3>
+					<p class="text-center">Encomendas</p>
 				</div>	
 				<div class="row header2">
-					<h3 class="text-center">1990</h3>
-					<p class="text-center">Monthly earnings</p>
+					<h3 class="text-center">10,21 €</h3>
+					<p class="text-center">Total Ganhos</p>
 				</div>
 			</div>
 			<div class="col-sm-1">
