@@ -53,49 +53,35 @@
         <div class="col-sm-12 coluna">
 	        <!--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-->
 	        <form class="form" role="form" method="POST" action "">
-	            <div class="row">
-	                <label class="col-sm-2 control-label">First name:</label>
-	                <div class="col-sm-8">
-	                    <input class="form-control" type="text" placeholder="Alejandra" />
-	                    <!--METER OS DADOS DE USER DA BASE DE DADOS NA PLACEHOLDER-->
-	                </div>
-	            </div>
-	            <div class="row">
-	                <label class="col-sm-2 control-label">Last name:</label>
-	                <div class="col-sm-8">
-	                    <input class="form-control" type="text" placeholder="Galvan" />
-	                </div>	
-	            </div>
-	            <div class="row">
-	                <label class="col-sm-2 control-label">Company:</label>
-	                <div class="col-sm-8">
-	                    <input class="form-control" type="text" placeholder="Design Co." />
-	                </div>
-	            </div>
-	            <div class="row">
-	                <label class="col-sm-2 control-label">Email:</label>
-	                <div class="col-sm-8">
-	                    <input class="form-control" type="text" placeholder="alejandra@design.com" />
-	                </div>
-	            </div>
-	            <div class="row">
-	                <label class="col-sm-2 control-label">Username:</label>
-	                <div class="col-sm-8">
-	                    <input class="form-control" type="text" placeholder="alegalvan" />
-	                </div>
-	            </div>
-	            <div class="row">
-	                <label class="col-sm-2 control-label">Password:</label>
-	                <div class="col-sm-8">
-	                    <input class="form-control" type="password" placeholder="blablablabla" />
-	                </div>
-	            </div>
-	            <div class="row">
-	                <label class="col-sm-2 control-label">Confirm password:</label>
-	                <div class="col-sm-8">
-	                    <input class="form-control" type="password" placeholder="blablablabla" />
-	                </div>
-	            </div>
+
+                <div class="form-group col-xs-12 col-md-8">
+                    <label for="" class="title-topic">Primeiro Nome</label>
+                    <input type="text" class="form-control xs" id="" placeholder="Input field">
+                </div>
+                <div class="form-group col-xs-12 col-md-8">
+                    <label for="" class="title-topic">Último Nome</label>
+                    <input type="text" class="form-control xs" id="" placeholder="Input field">
+                </div>
+                <div class="form-group col-xs-12 col-md-8">
+                    <label for="" class="title-topic">Email</label>
+                    <input type="text" class="form-control xs" id="" placeholder="Input field">
+                </div>
+                <div class="form-group col-xs-12 col-md-8">
+                    <label for="" class="title-topic">Telémovel</label>
+                    <input type="text" class="form-control xs" id="" placeholder="Input field">
+                </div>
+                <div class="form-group col-xs-12 col-md-8">
+                    <label for="" class="title-topic">Nome Utilizador</label>
+                    <input type="text" class="form-control xs" id="" placeholder="Input field">
+                </div>
+                <div class="form-group col-xs-12 col-md-8">
+                    <label for="" class="title-topic">Password</label>
+                    <input type="text" class="form-control xs" id="" placeholder="Input field">
+                </div>
+                <div class="form-group col-xs-12 col-md-8">
+                    <label for="" class="title-topic">Confirmar Password</label>
+                    <input type="text" class="form-control xs" id="" placeholder="Input field">
+                </div>
 	            <div class="row">
 	                <button type="submit" class="col-sm-2 col-sm-offset-1 btn btn-md">Save Changes</button>
 	                <button type="reset" class="col-sm-2 col-sm-push-1 btn btn-md">Default button</button>
