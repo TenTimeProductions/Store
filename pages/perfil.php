@@ -42,7 +42,7 @@
 			</div>
 			<div class="col-sm-3 no-padding">
 						<div class="foto_border"><div class="foto"></div></div>
-						<div>
+						<div class="margin">
 							<button type="submit" class="btn btn-info">Follow</button>
 	                		<button type="reset" class="btn btn-success">Add</button>
 	                	</div>

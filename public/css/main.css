@@ -103,6 +103,13 @@
 	left:10px;
 	/*background-image: url();*/
 }
+.margin{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.margin2{
+	
+}
 .foto_border{
 	position:relative;
 	width:170px;
