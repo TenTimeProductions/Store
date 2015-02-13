@@ -54,10 +54,10 @@ return [
 
 		'mysql' => [
 			'driver'    => 'mysql',
-			'host'      => 'localhost',  //env('DB_HOST', 'localhost'),
-			'database'  => 'aircaw', //env('DB_DATABASE', 'aircaw'),
-			'username'  => 'root', //env('DB_USERNAME', 'root'),
-			'password'  => '', //env('DB_PASSWORD', ''),
+			'host'      => 'localhost',
+			'database'  => 'fm_store',
+			'username'  => 'root',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
