@@ -1,11 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Bruno
- * Date: 12/02/2015
- * Time: 21:51
- */
-?>
+@extends('dashboard.master')
+
+@section('content')
 <!-- BEGIN MAIN CONTENT -->
 <div id="main-content">
     <div class="page-title"> <i class="icon-custom-left"></i>

@@ -1,13 +1,21 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Bruno
- * Date: 12/02/2015
- * Time: 21:52
- */
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>teste</title>
+    @include('dashboard.base.header')
+    @yield('header')
+</head>
+<body>
+    @include('dashboard.base.topbar')
 
-@include('base.header');
-@include('base.sidebar-menu');
-@include('base.content');
-@include('features.chat');
-@include('base.footer');
+    <div id="wrapper">
+        @include('dashboard.base.sidebar-menu')
+        @yield('content')
+        @include('dashboard.features.chat')
+        @include('dashboard.base.footer')
+    </div>
+
+    @yield('footer')
+</body>
+</html>

@@ -1,30 +1,20 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Bruno
- * Date: 12/02/2015
- * Time: 21:43
- */
- ?>
+
 <!-- BEGIN MANDATORY SCRIPTS -->
-<script src="assets/plugins/jquery-1.11.js"></script>
-<script src="assets/plugins/jquery-migrate-1.2.1.js"></script>
-<script src="assets/plugins/jquery-ui/jquery-ui-1.10.4.min.js"></script>
-<script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
-<script src="assets/plugins/bootstrap-dropdown/bootstrap-hover-dropdown.min.js"></script>
-<script src="assets/plugins/bootstrap-select/bootstrap-select.js"></script>
-<script src="assets/plugins/icheck/icheck.js"></script>
-<script src="assets/plugins/mcustom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="assets/plugins/mmenu/js/jquery.mmenu.min.all.js"></script>
-<script src="assets/plugins/nprogress/nprogress.js"></script>
-<script src="assets/plugins/charts-sparkline/sparkline.min.js"></script>
-<script src="assets/plugins/breakpoints/breakpoints.js"></script>
-<script src="assets/plugins/numerator/jquery-numerator.js"></script>
-<script src="assets/plugins/jquery.cookie.min.js"></script>
+<script src="/plugins/jquery-1.11.js"></script>
+<script src="/plugins/jquery-migrate-1.2.1.js"></script>
+<script src="/plugins/jquery-ui/jquery-ui-1.10.4.min.js"></script>
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="/plugins/bootstrap-dropdown/bootstrap-hover-dropdown.min.js"></script>
+<script src="/plugins/bootstrap-select/bootstrap-select.js"></script>
+<script src="/plugins/icheck/icheck.js"></script>
+<script src="/plugins/mcustom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/plugins/mmenu/js/jquery.mmenu.min.all.js"></script>
+<script src="/plugins/nprogress/nprogress.js"></script>
+<script src="/plugins/charts-sparkline/sparkline.min.js"></script>
+<script src="/plugins/breakpoints/breakpoints.js"></script>
+<script src="/plugins/numerator/jquery-numerator.js"></script>
+<script src="/plugins/jquery.cookie.min.js"></script>
 
 <!-- END MANDATORY SCRIPTS -->
-<script src="assets/js/animations.js"></script>
-<script src="assets/js/application.js"></script>
-</body>
-
-</html>
+<script src="/js/animations.js"></script>
+<script src="/js/application.js"></script>

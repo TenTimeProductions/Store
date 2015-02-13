@@ -1,11 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Bruno
- * Date: 12/02/2015
- * Time: 21:37
- */
-?>
+
 <!-- BEGIN MAIN SIDEBAR -->
         <nav id="sidebar">
             <ul class="sidebar-nav">
