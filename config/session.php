@@ -28,9 +28,9 @@ return [
 	| to immediately expire on the browser closing, set that option.
 	|
 	*/
-
+	//120 Minutos
 	'lifetime' => 120,
-
+	//fechar a sessao quando o browser fecha
 	'expire_on_close' => false,
 
 	/*

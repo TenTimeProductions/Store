@@ -53,7 +53,7 @@ return [
 	| used globally for all e-mails that are sent by your application.
 	|
 	*/
-
+	//TODO alterar o e-mail para e-mail geral do website que vai enviar informações a todos os clientes/vendedores
 	'from' => ['address' => null, 'name' => null],
 
 	/*

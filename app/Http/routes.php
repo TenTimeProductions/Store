@@ -12,3 +12,4 @@
 */
 Route::get('/', 'DashboardController@index');
 Route::get('account', 'DashboardController@account');
+Route::get('contact', 'DashboardController@contact');
