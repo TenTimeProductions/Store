@@ -9,25 +9,25 @@
                         <a href="#"><i class="glyph-icon flaticon-widgets"></i><span class="sidebar-text">Widgets <span class="label label-danger pull-right">New</span></span></a>
                     </li> -->
                     <li>
-                        <a href="#" target="_blank"><i class="glyph-icon flaticon-frontend"></i><span class="sidebar-text">Frontend</span></a>
+                        <a href="#" target="_blank"><i class="glyph-icon flaticon-frontend"></i><span class="sidebar-text">Página Inicial</span></a>
                     </li>
                     <li>
-                        <a href="#"><i class="glyph-icon flaticon-charts2"></i><span class="sidebar-text">Team</span><span class="pull-right badge badge-primary">2</span></a>
+                        <a href="#"><i class="glyph-icon flaticon-charts2"></i><span class="sidebar-text">Progresso de Equipa</span><span class="pull-right badge badge-primary">2</span></a>
                     </li>
 
                     <li>
                         <a href="#"><i class="glyph-icon flaticon-email"></i><span class="sidebar-text">Email</span><span class="fa arrow"></span></a>
                          <ul class="submenu collapse">
                             <li>
-                                <a href="#"><span class="sidebar-text">Inbox</span></a>
+                                <a href="#"><span class="sidebar-text">Minhas Mensagens</span></a>
                             </li>
                             <li>
-                                <a href="#"><span class="sidebar-text">Write a Message</span></a>
+                                <a href="#"><span class="sidebar-text">Escrever uma Mensagem</span></a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><i class="glyph-icon flaticon-forms"></i><span class="sidebar-text">Forms</span><span class="fa arrow"></span></a>
+                        <a href="#"><i class="glyph-icon flaticon-forms"></i><span class="sidebar-text">Formulários</span><span class="fa arrow"></span></a>
                         <ul class="submenu collapse">
                             <li>
                                 <a href="#"><span class="sidebar-text">Form Elements</span></a>
@@ -49,7 +49,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#"><i class="glyph-icon flaticon-ui-elements2"></i><span class="sidebar-text">UI Elements</span><span class="fa arrow"></span></a>
                         <ul class="submenu collapse">
                             <li>
@@ -84,6 +84,7 @@
                             </li>
                         </ul>
                     </li>
+                            -->
                     <li>
                         <a href="#"><i class="glyph-icon flaticon-pages"></i><span class="sidebar-text">Pages</span><span class="fa arrow"></span></a>
                         <ul class="submenu collapse">
@@ -107,7 +108,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="current">
+                   <!-- <li class="current"> //TODO-migas class current adicionar para mostrar qual a tab aberta
                         <a href="#"><i class="glyph-icon flaticon-world"></i><span class="sidebar-text">Google Maps</span></a>
                     </li>
                     <li>
@@ -120,7 +121,7 @@
                                 <a href="#"><span class="sidebar-text">Draggable Panels</span></a>
                             </li>
                         </ul>
-                    </li>
+                    </li>-->
                     <li>
                         <a href="#"><i class="fa fa-table"></i><span class="sidebar-text">Tables</span><span class="fa arrow"></span></a>
                         <ul class="submenu collapse">
@@ -136,30 +137,30 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><i class="glyph-icon flaticon-account"></i><span class="sidebar-text">Account</span><span class="fa arrow"></span></a>
+                        <a href="#"><i class="glyph-icon flaticon-account"></i><span class="sidebar-text">Minha Conta</span><span class="fa arrow"></span></a>
                           <ul class="submenu collapse">
                             <li>
-                                <a href="#"><span class="sidebar-text">User Profile</span></a>
+                                <a href="#"><span class="sidebar-text">Perfil</span></a>
                             </li>
                             <li>
                                 <a href="#"><span class="sidebar-text">Login</span></a>
                             </li>
                             <li>
-                                <a href="#"><span class="sidebar-text">Signup</span></a>
+                                <a href="#"><span class="sidebar-text">Registar</span></a>
                             </li>
                             <li>
-                                <a href="#"><span class="sidebar-text">Password recover</span></a>
+                                <a href="#"><span class="sidebar-text">Recuperar Password</span></a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="#"><span class="sidebar-text">Lockscreen</span></a>
-                            </li>
+                            </li>-->
                             <li>
-                                <a href="#"><span class="sidebar-text">Session Timeout</span></a>
+                                <a href="#"><span class="sidebar-text">Terminar Sessão</span></a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><i class="glyph-icon flaticon-gallery"></i><span class="sidebar-text">Images Manager</span><span class="fa arrow"></span></a>
+                        <a href="#"><i class="glyph-icon flaticon-gallery"></i><span class="sidebar-text">Histórico de Compras</span><span class="fa arrow"></span></a>
                          <ul class="submenu collapse">
                             <li>
                                 <a href="#"><span class="sidebar-text">Gallery</span></a>
