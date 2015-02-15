@@ -5,7 +5,7 @@
     <!-- BEGIN MAIN CONTENT -->
     <div id="main-content">
         <div class="page-title"> <i class="icon-custom-left"></i>
-            <h2>Parameters <small>here you can update your info &amp; notifications settings</small></h2>
+            <h2>Perfil <small>aqui pode atualizar as suas definições das suas informações &amp; notificações</small></h2>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -13,8 +13,8 @@
                     <!-- BEGIN TABS -->
                     <div class="tabbable tabbable-custom form">
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="#general_settings" data-toggle="tab">INFOS</a></li>
-                            <li><a href="#email_settings" data-toggle="tab">NOTIFICATIONS</a></li>
+                            <li class="active"><a href="#general_settings" data-toggle="tab">Informação</a></li>
+                            <li><a href="#email_settings" data-toggle="tab">Notificações</a></li>
                         </ul>
                         <div class="tab-content">
                             <div class="space20"></div>
@@ -25,34 +25,58 @@
                                             <div class="col-md-12">
                                                 <ul class="list-unstyled profile-nav col-md-3">
                                                     <li>
-                                                        <img src="assets/img/avatars/avatar4_big.png" alt="avatar 4"/>
+                                                        <img src="/img/avatars/avatar4_big.png" alt="avatar 4"/>
                                                     </li>
                                                 </ul>
                                                 <div class="col-md-9">
                                                     <div class="row">
                                                         <div class="col-md-12 profile-info">
-                                                            <h1>John Addams</h1>
-                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna aliquam tincidunt erat volutpat laoreet dolore magna aliquam tincidunt erat volutpat.</p>
+                                                            <h1>{{ $user->name }}</h1>
                                                             <div class="m-t-10"></div>
                                                             <ul class="list-unstyled list-inline">
-                                                                <li class="m-r-20"><i class="fa fa-map-marker p-r-5 c-dark"></i> New York</li>
-                                                                <li class="m-r-20"><i class="fa fa-calendar p-r-5 c-purple"></i> July 2012</li>
-                                                                <li class="m-r-20"><i class="fa fa-briefcase p-r-5 c-brown"></i> Webmaster</li>
-                                                                <li class="m-r-20"><i class="fa fa-star p-r-5 c-blue"></i> Moderator</li>
-                                                                <li><i class="fa fa-heart p-r-5 c-red"></i> Swimming</li>
+                                                                <li class="m-r-20"><i class="fa fa-user p-r-5 c-dark"></i> {{ $user->username }}</li>
+                                                                <li class="m-r-20"><i class="fa fa-map-marker p-r-5 c-dark"></i> {{ $user->country }}</li> <!-- TODO change country code to name-->
+                                                                <li class="m-r-20"><i class="fa fa-calendar p-r-5 c-purple"></i>  {{ $user->registration_date }}</li>
+                                                                <li class="m-r-20"><i class="fa fa-briefcase p-r-5 c-brown"></i>  {{ $user->level }}</li> <!-- TODO add words to the leve of user (client, seller, admin)-->
                                                             </ul>
                                                             <div class="m-t-20"></div>
-                                                            <a href="profil.html" class="btn btn-dark">See my Profil</a>
                                                         </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="alert alert-block alert-info fade in width-100p">
+                                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                                        <h5>Partilhe o seu perfil para ganhar clientes e créditos! <a href="#">Copiar link! (http://fm-store.com/inv/{{ $user->username }})</a></h5>
+                                                        <!-- TODO mostrar modal com link do user  -->
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row profile-classic">
                                             <div class="col-md-12">
-                                                <div class="alert alert-block alert-info fade in width-100p">
-                                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                                    <h5>Your profil is visible by all users. <a href="#">Edit my parameters</a></h5>
+                                                <div class="panel">
+                                                    <div class="panel-title line">
+                                                        <div class="caption"><i class="fa fa-user c-gray m-r-10"></i> Informações Básicas</div>
+                                                    </div>
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="control-label col-md-3">Primeiro Nome:</div>
+                                                            <div class="col-md-6">
+                                                                <input type="text" class="form-control" id="field-1" value="{{ $user->first_name }}"></div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="control-label col-md-3">Último Nome:</div>
+                                                            <div class="col-md-6">
+                                                                <input type="text" class="form-control" id="field-1" value="{{ $user->last_name }}">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="control-label col-md-3">Nome de Utilizador:</div>
+                                                            <div class="col-md-6">
+                                                                <input type="text" class="form-control" id="field-1" value="{{ $user->username }}"></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -60,25 +84,41 @@
                                             <div class="col-md-12 m-t-20">
                                                 <div class="panel">
                                                     <div class="panel-title line">
-                                                        <div class="caption"><i class="fa fa-phone c-gray m-r-10"></i> CONTACT</div>
+                                                        <div class="caption"><i class="fa fa-phone c-gray m-r-10"></i> Contactos</div>
                                                     </div>
                                                     <div class="panel-body">
                                                         <div class="row">
                                                             <div class="control-label c-gray col-md-3">Email:</div>
                                                             <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="john@yahoo.com">
+                                                                <input type="text" class="form-control" id="field-1" value="{{ $user->email }}">
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="control-label c-gray col-md-3">Phone:</div>
+                                                            <div class="control-label c-gray col-md-3">Telemóvel:</div>
                                                             <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="02 988 774">
+                                                                <input type="text" class="form-control" id="field-1" value="{{ $user->phone }}">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row profile-classic">
+                                            <div class="col-md-12 m-t-20">
+                                                <div class="panel">
+                                                    <div class="panel-title line">
+                                                        <div class="caption"><i class="fa fa-lock c-gray m-r-10"></i> Segurança</div>
+                                                    </div>
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="control-label c-gray col-md-3">Password:</div>
+                                                            <div class="col-md-6">
+                                                                <input type="password" class="form-control" id="field-1" value="{{ $user->password }}">
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="control-label c-gray col-md-3">Mobile:</div>
                                                             <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="06 336 22 44 55">
+                                                                <button class="btn btn-primary m-r-20">Nova Password</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -89,34 +129,47 @@
                                             <div class="col-md-12">
                                                 <div class="panel">
                                                     <div class="panel-title line">
-                                                        <div class="caption"><i class="fa fa-info c-gray m-r-10"></i> ABOUT</div>
+                                                        <div class="caption"><i class="fa fa-info c-gray m-r-10"></i> Sobre</div>
                                                     </div>
                                                     <div class="panel-body">
                                                         <div class="row">
-                                                            <div class="control-label col-md-3 p-t-0">Member since:</div>
-                                                            <div class="col-md-6">July 2012</div>
+                                                            <div class="control-label col-md-3 p-t-0">Membro desde:</div>
+                                                            <div class="col-md-6">{{ $user->registration_date }}</div> <!-- //TODO change this to a real date-->
                                                         </div>
                                                         <div class="row">
-                                                            <div class="control-label col-md-3 p-t-0">Invited by:</div>
+                                                            <div class="control-label col-md-3 p-t-0">Convidado por:</div>
                                                             <div class="col-md-6"><a href="#">John Pharell</a></div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="control-label col-md-3">Surname:</div>
                                                             <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="Tod"></div>
 
+                                                                <div class="skin-section">
+                                                                    <ul class="list col-md-6">
+                                                                        <li class="m-b-20">
+                                                                            <div class="ui-radio"><label class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-on">
+                                                                                    Masculino
+                                                                                </label><input type="radio" name="gender" checked="" data-cacheval="false"></div>
+                                                                        </li>
+                                                                        <li class="m-b-20">
+                                                                            <div class="ui-radio"><label class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">
+                                                                                    Feminino
+                                                                                </label><input type="radio" name="gender" data-cacheval="true"></div>
+                                                                        </li>
+                                                                        <li class="m-b-20">
+                                                                            <div class="ui-radio"><label class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">
+                                                                                    Outro
+                                                                                </label><input type="radio" name="gender" data-cacheval="true"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="control-label col-md-3">Hobbies:</div>
+                                                            <div class="control-label col-md-3">Linguagem:</div>
                                                             <div class="col-md-6">
                                                                 <input type="text" class="form-control" id="field-1" value="football, basket"></div>
                                                         </div>
-
-                                                        <div class="row">
-                                                            <div class="control-label col-md-3">Fun facts:</div>
-                                                            <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="Love to go in space"></div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -125,75 +178,32 @@
                                             <div class="col-md-12">
                                                 <div class="panel">
                                                     <div class="panel-title line">
-                                                        <div class="caption"><i class="fa fa-group c-gray m-r-10"></i> FAMILY</div>
+                                                        <div class="caption"><i class="fa fa-home c-gray m-r-10"></i> Morada</div>
                                                     </div>
                                                     <div class="panel-body">
                                                         <div class="row">
-                                                            <div class="control-label col-md-3">Children:</div>
+                                                            <div class="control-label col-md-3">Rua:</div>
                                                             <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="William"></div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="control-label col-md-3">Dogs:</div>
-                                                            <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="Marley">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row profile-classic">
-                                            <div class="col-md-12">
-                                                <div class="panel">
-                                                    <div class="panel-title line">
-                                                        <div class="caption"><i class="fa fa-home c-gray m-r-10"></i> ADDRESS</div>
-                                                    </div>
-                                                    <div class="panel-body">
-                                                        <div class="row">
-                                                            <div class="control-label col-md-3">Street:</div>
-                                                            <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="25 Jump Street">
+                                                                <input type="text" class="form-control" id="address" value="{{ $user->address }}">
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="control-label col-md-3">City:</div>
+                                                            <div class="control-label col-md-3">Cidade:</div>
                                                             <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="New York">
+                                                                <input type="text" class="form-control" id="city" value="{{ $user->city }}">
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="control-label col-md-3">Zip Code:</div>
+                                                            <div class="control-label col-md-3">Código Postal:</div>
                                                             <div class="col-md-6">
-                                                                <input type="text" class="form-control" id="field-1" value="10 007">
+                                                                <input type="text" class="form-control" id="zip_code" value="{{ $user->zip_code }}">
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row profile-classic">
-                                            <div class="col-md-12">
-                                                <div class="panel">
-                                                    <div class="panel-title line">
-                                                        <div class="caption"><i class="fa fa-bar-chart-o c-gray m-r-10"></i> PERSONAL STATS</div>
-                                                    </div>
-                                                    <div class="panel-body">
                                                         <div class="row">
-                                                            <div class="control-label col-md-3 p-t-0">ARTICLES:</div>
-                                                            <div class="col-md-9">4</div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="control-label col-md-3 p-t-0">ANSWERS:</div>
-                                                            <div class="col-md-9">2</div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="control-label col-md-3 p-t-0">PICTURES:</div>
-                                                            <div class="col-md-9">1</div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="control-label col-md-3 p-t-0">EVENTS:</div>
-                                                            <div class="col-md-9">1</div>
+                                                            <div class="control-label col-md-3">País:</div>
+                                                            <div class="col-md-6">
+                                                                <input type="text" class="form-control" id="country" value="{{ $user->country }}">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -201,15 +211,15 @@
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="align-center">
-                                                <button class="btn btn-primary m-r-20">Validate</button>
-                                                <button type="reset" class="btn btn-default">Cancel</button>
+                                                <button class="btn btn-primary m-r-20">Atualizar</button>
+                                                <button type="reset" class="btn btn-default">Cancelar</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="email_settings">
-                                <p class="m-t-20">You will receive your notification here youremail@yahoo.fr <a href="#"><strong>Change my email</strong></a></p>
+                                <p class="m-t-20">Você irá receber as notificações no email {{ $user->email }} <a href="#"><strong>Mudar o email</strong></a></p>
                                 <div class="m-t-10"></div>
                                 <table class="table">
                                     <thead>

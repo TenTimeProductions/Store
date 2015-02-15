@@ -5,12 +5,12 @@
     <meta content="themes-lab" name="author" />
     <!-- END META SECTION -->
     <!-- BEGIN MANDATORY STYLE -->
-    <link href="/css/icons/icons.min.css" rel="stylesheet">
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/plugins.min.css" rel="stylesheet">
-    <link href="/css/style.min.css" rel="stylesheet">
+    <link href="/back/css/icons/icons.min.css" rel="stylesheet">
+    <link href="/back/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/back/css/plugins.min.css" rel="stylesheet">
+    <link href="/back/css/style.min.css" rel="stylesheet">
     <!-- END  MANDATORY STYLE -->
     <!-- BEGIN PAGE LEVEL STYLE -->
-    <link rel="stylesheet" href="/plugins/font-awesome-animation/font-awesome-animation.min.html">
+    <link rel="stylesheet" href="/back/plugins/font-awesome-animation/font-awesome-animation.min.html">
     <!-- END PAGE LEVEL STYLE -->
-    <script src="/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="/back/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
