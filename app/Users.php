@@ -11,5 +11,6 @@ class Users extends Eloquent {
      */
     protected $table = 'users';
 
+    protected $primaryKey = 'id_user';
 
 }

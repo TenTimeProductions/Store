@@ -16,10 +16,18 @@ class DashboardController extends Controller {
 
     public function account(){
 
-        $user = Users::find(2);
-        //dd($user);
+        $user = Users::find(1);
+       // dd($user);
         return view('dashboard.pages.account', compact('user'));
     }
+
+    public function edit(){
+
+        $user = Users::find(1);
+        // dd($user);
+        return view('dashboard.pages.edit', compact('user'));
+    }
+
 
     public function contact(){
 

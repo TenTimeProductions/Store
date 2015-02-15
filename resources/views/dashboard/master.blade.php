@@ -7,15 +7,15 @@
     @yield('header')
 </head>
 <body>
-@include('dashboard.base.topbar')
+    @include('dashboard.base.topbar')
 
-<div id="wrapper">
-    @include('dashboard.base.sidebar-menu')
-    @yield('content')
-    @include('dashboard.features.chat')
-    @include('dashboard.base.footer')
-</div>
+    <div id="wrapper">
+        @include('dashboard.base.sidebar-menu')
+        @yield('content')
+        @include('dashboard.features.chat')
+        @include('dashboard.base.footer')
+    </div>
 
-@yield('footer')
+    @yield('footer')
 </body>
 </html>

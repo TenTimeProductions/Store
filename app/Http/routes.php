@@ -12,4 +12,5 @@
 */
 Route::get('/', 'DashboardController@index');
 Route::get('account', 'DashboardController@account');
+Route::get('account/edit', 'DashboardController@edit');
 Route::get('contact', 'DashboardController@contact');

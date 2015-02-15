@@ -14,8 +14,7 @@
                     <div class="panel-body">
                         <div class="row">
                             <ul>
-                                {!! $user->username !!}
-
+                                {{ $user->username }}
                             </ul>
                         </div>
                     </div>

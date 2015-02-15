@@ -2,7 +2,7 @@
 <!-- BEGIN MAIN SIDEBAR -->
         <nav id="sidebar">
             <ul class="sidebar-nav">
-                    <li>
+                    <li class="active current">
                         <a href="#"><i class="fa fa-dashboard"></i><span class="sidebar-text">Dashboard</span></a>
                     </li>
                 <!-- TODO migas class current adicionar para mostrar qual a tab aberta -->
