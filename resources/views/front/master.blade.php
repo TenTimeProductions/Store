@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="four column row">
             @yield('content')
         </div>
@@ -32,7 +32,7 @@
             @yield('content')
         </div>
     </div>
-    @include('dashboard.base.footer')
+    @include('front.base.footer')
 
 @yield('footer')
 </body>

@@ -3,9 +3,9 @@
     <a href="" class="active item">Home</a>
     <a href="" class="item">About</a>
     <a href="" class="item">Contact</a>
-    <a class="ui dropdown item">Dropdown
+    <a class="ui simple dropdown item">Dropdown
         <i class="dropdown icon"></i>
-        <div class="menu ui transition hidden">
+        <div class="menu ui transition">
             <div class="item">Action</div>
             <div class="item">Another action</div>
             <div class="item">Something else here</div>

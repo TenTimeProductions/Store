@@ -13,6 +13,7 @@
 
 <link href="/front/css/semantic.css" rel="stylesheet">
 
+<link href="/front/css/semantic-edited.css" rel="stylesheet">
 <!-- END  MANDATORY STYLE -->
 <!-- BEGIN PAGE LEVEL STYLE -->
 <link rel="stylesheet" href="/back/plugins/font-awesome-animation/font-awesome-animation.min.html">

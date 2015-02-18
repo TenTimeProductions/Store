@@ -1,0 +1,17 @@
+.ui.cards > .card > .image > img, .ui.card > .image > img {
+    border-radius: 0;
+}
+.ui.cards > .card, .ui.card {
+    border-radius: 0;
+    box-shadow: 0px 2px 0px 0px #d4d4d5, 0px 0px 0px 1px #d4d4d5;
+}
+.ui.basic.buttons .button, .ui.basic.button {
+    border-radius: 0;
+}
+
+.ui.cards > .card > :first-child, .ui.card > :first-child {
+    border-radius: 0 !important;
+}
+.ui.inverted.dimmer {
+    background: rgba(0, 0, 0, 0.3);
+}

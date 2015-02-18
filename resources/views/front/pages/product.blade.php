@@ -3,18 +3,20 @@
 
 @section('header')
     <style>
-        .fm-color{
-            border: 2px solid #8D0130;
+        .square{
+            height: 20px;
+            width: 20px;
+            margin: 2px;
+            display: inline-block;
+            background: gray;
         }
-        .item-shop{
-            border: 1px solid rgba(170, 169, 171, 0.100);
-            color: #585858;
-            min-height: 300px;
-        }
-        .item-footer{
+        .details-item {
+            background: #eee;
+            padding: 10px;
+            bottom: 0;
+            position: absolute;
             width: 100%;
-            border-top: 1px solid gray;
-            box-shadow: 0 0 1px gray;
+            text-align: center;
         }
     </style>
 @endsection
@@ -29,24 +31,30 @@
                     <div class="ui inverted dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui primary button">Add Friend</div>
+                                <div class="ui primary button">Ver Detalhes</div>
+                                <div class="details-item">
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <img src="/images/avatar/large/jenny.jpg">
+                    <img src="http://semantic-ui.com/images/home-avatar.png">
                 </div>
                 <div class="content">
-                    <a class="header">Team Hess</a>
+                    <a class="header">Perfume</a>
                     <div class="meta">
-                        <span class="date">Create in Aug 2014</span>
+                        <span class="price">15,50 €</span>
                     </div>
                 </div>
                 <div class="extra content">
-                    <div class="ui green basic button">Green</div>
-                    <a>
-                        <i class="users icon"></i>
-                        2 Members
-                    </a>
+                    <i class="shop icon"></i>
+                    15,50 €
+                    <div class="ui green basic button right floated"><i class="shop icon"></i></div>
                 </div>
             </div>
         </div>
@@ -58,24 +66,26 @@
                     <div class="ui inverted dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui primary button">Add Friend</div>
+                                <div class="ui primary button">Ver Detalhes</div>
+                                <div class="ui green button"><i class="shop icon"></i></div>
+                                <div class="details-item">
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <img src="/images/avatar/large/jenny.jpg">
+                    <img src="http://semantic-ui.com/images/home-avatar.png">
                 </div>
                 <div class="content">
-                    <a class="header">Team Hess</a>
+                    <a class="header">Perfume</a>
                     <div class="meta">
-                        <span class="date">Create in Aug 2014</span>
+                        <span class="price">15,50 €</span>
                     </div>
-                </div>
-                <div class="extra content">
-                    <div class="ui green basic button">Green</div>
-                    <a>
-                        <i class="users icon"></i>
-                        2 Members
-                    </a>
                 </div>
             </div>
         </div>
@@ -87,53 +97,28 @@
                     <div class="ui inverted dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui primary button">Add Friend</div>
+                                <div class="ui primary button">Ver Detalhes</div>
+                                <div class="details-item">
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                    <span class="square"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <img src="/images/avatar/large/jenny.jpg">
+                    <img src="http://semantic-ui.com/images/home-avatar.png">
                 </div>
                 <div class="content">
-                    <a class="header">Team Hess</a>
-                    <div class="meta">
-                        <span class="date">Create in Aug 2014</span>
-                    </div>
-                </div>
-                <div class="extra content">
-                    <div class="ui green basic button">Green</div>
-                    <a>
-                        <i class="users icon"></i>
-                        2 Members
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="column">
-        <div class="ui special cards">
-            <div class="card">
-                <div class="dimmable image">
-                    <div class="ui inverted dimmer">
-                        <div class="content">
-                            <div class="center">
-                                <div class="ui primary button">Add Friend</div>
-                            </div>
+                    <div class="floated left">
+                        <a class="header">Perfume</a>
+                        <div class="meta">
+                            <span class="price">15,50 €</span>
                         </div>
                     </div>
-                    <img src="/images/avatar/large/jenny.jpg">
-                </div>
-                <div class="content">
-                    <a class="header">Team Hess</a>
-                    <div class="meta">
-                        <span class="date">Create in Aug 2014</span>
-                    </div>
-                </div>
-                <div class="extra content">
-                    <div class="ui green basic button">Green</div>
-                    <a>
-                        <i class="users icon"></i>
-                        2 Members
-                    </a>
+                    <div class="ui green basic button right floated"><i class="shop icon"></i></div>
                 </div>
             </div>
         </div>
