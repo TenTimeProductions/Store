@@ -9,6 +9,10 @@
 <link href="/back/css/bootstrap.min.css" rel="stylesheet">
 <link href="/back/css/plugins.min.css" rel="stylesheet">
 <link href="/back/css/style.min.css" rel="stylesheet">
+
+
+<link href="/front/css/semantic.css" rel="stylesheet">
+
 <!-- END  MANDATORY STYLE -->
 <!-- BEGIN PAGE LEVEL STYLE -->
 <link rel="stylesheet" href="/back/plugins/font-awesome-animation/font-awesome-animation.min.html">
@@ -16,5 +20,5 @@
 <script src="/back/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="/front/css/style.css" rel="stylesheet">
+<link href="/front/css/invite-page.css" rel="stylesheet">
 <link href="/front/css/buttons.css" rel="stylesheet">
