@@ -11,6 +11,7 @@
 @include('dashboard.base.topbar')
 
     @yield('content')
+
     @include('dashboard.base.footer')
 
 @yield('footer')

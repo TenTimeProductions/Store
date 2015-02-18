@@ -1,334 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c842b68c-b416-4bd7-b66f-b1b0074c670b" name="Default" comment="Add invite page, frontOffice initialize and a more complex edit account page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/InviteController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/base/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/pages/invite.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/master.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/front/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/dashboard/pages/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/dashboard/pages/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/dashboard/base/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/dashboard/base/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/dashboard/base/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/dashboard/base/header.blade.php" />
+    <list default="true" id="c842b68c-b416-4bd7-b66f-b1b0074c670b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/front/css/buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/pages/product.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/base/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/base/header.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/master.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/dashboard/base/topbar.blade.php" afterPath="$PROJECT_DIR$/resources/views/dashboard/base/topbar.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\animate-custom.css" afterPath="$PROJECT_DIR$/public/back/css/animate-custom.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\app.css" afterPath="$PROJECT_DIR$/public/back/css/app.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/public/back/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\Descr.WD3" afterPath="$PROJECT_DIR$/public/back/css/icons/Descr.WD3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\flaticons\Descr.WD3" afterPath="$PROJECT_DIR$/public/back/css/icons/flaticons/Descr.WD3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\flaticons\flaticon.eot" afterPath="$PROJECT_DIR$/public/back/css/icons/flaticons/flaticon.eot" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\flaticons\flaticon.svg" afterPath="$PROJECT_DIR$/public/back/css/icons/flaticons/flaticon.svg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\flaticons\flaticon.ttf" afterPath="$PROJECT_DIR$/public/back/css/icons/flaticons/flaticon.ttf" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\flaticons\flaticon.woff" afterPath="$PROJECT_DIR$/public/back/css/icons/flaticons/flaticon.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\Descr.WD3" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/Descr.WD3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfont.eot@" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfont.eot@" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfont.eot@v=4.0.3" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfont.eot@v=4.0.3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfont.svg@v=4.0.3" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfont.svg@v=4.0.3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfont.ttf@v=4.0.3" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfont.ttf@v=4.0.3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfont.woff@v=4.0.3" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfont.woff@v=4.0.3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfontba72.eot" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfontba72.eot" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfontba72.svg" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfontba72.svg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfontba72.ttf" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfontba72.ttf" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfontba72.woff" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfontba72.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\font-awesome\fonts\fontawesome-webfontd41d.eot" afterPath="$PROJECT_DIR$/public/back/css/icons/font-awesome/fonts/fontawesome-webfontd41d.eot" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\glyphicons\glyphicons_halflings\font\Descr.WD3" afterPath="$PROJECT_DIR$/public/back/css/icons/glyphicons/glyphicons_halflings/font/Descr.WD3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\glyphicons\glyphicons_halflings\font\glyphiconshalflings-regular.eot" afterPath="$PROJECT_DIR$/public/back/css/icons/glyphicons/glyphicons_halflings/font/glyphiconshalflings-regular.eot" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\glyphicons\glyphicons_halflings\font\glyphiconshalflings-regular.eot@" afterPath="$PROJECT_DIR$/public/back/css/icons/glyphicons/glyphicons_halflings/font/glyphiconshalflings-regular.eot@" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\glyphicons\glyphicons_halflings\font\glyphiconshalflings-regular.svg" afterPath="$PROJECT_DIR$/public/back/css/icons/glyphicons/glyphicons_halflings/font/glyphiconshalflings-regular.svg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\glyphicons\glyphicons_halflings\font\glyphiconshalflings-regular.ttf" afterPath="$PROJECT_DIR$/public/back/css/icons/glyphicons/glyphicons_halflings/font/glyphiconshalflings-regular.ttf" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\glyphicons\glyphicons_halflings\font\glyphiconshalflings-regular.woff" afterPath="$PROJECT_DIR$/public/back/css/icons/glyphicons/glyphicons_halflings/font/glyphiconshalflings-regular.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\glyphicons\glyphicons_halflings\font\glyphiconshalflings-regulard41d.eot" afterPath="$PROJECT_DIR$/public/back/css/icons/glyphicons/glyphicons_halflings/font/glyphiconshalflings-regulard41d.eot" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\icons.min.css" afterPath="$PROJECT_DIR$/public/back/css/icons/icons.min.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\weather\Descr.WD3" afterPath="$PROJECT_DIR$/public/back/css/icons/weather/Descr.WD3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\weather\artill_clean_icons-webfont.eot" afterPath="$PROJECT_DIR$/public/back/css/icons/weather/artill_clean_icons-webfont.eot" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\weather\artill_clean_icons-webfont.eot@" afterPath="$PROJECT_DIR$/public/back/css/icons/weather/artill_clean_icons-webfont.eot@" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\weather\artill_clean_icons-webfont.ttf" afterPath="$PROJECT_DIR$/public/back/css/icons/weather/artill_clean_icons-webfont.ttf" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\weather\artill_clean_icons-webfont.woff" afterPath="$PROJECT_DIR$/public/back/css/icons/weather/artill_clean_icons-webfont.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\weather\artill_clean_icons-webfontd41d.eot" afterPath="$PROJECT_DIR$/public/back/css/icons/weather/artill_clean_icons-webfontd41d.eot" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\weather\weatherfont\artill_clean_icons-webfont.html" afterPath="$PROJECT_DIR$/public/back/css/icons/weather/weatherfont/artill_clean_icons-webfont.html" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\zocial\Descr.WD3" afterPath="$PROJECT_DIR$/public/back/css/icons/zocial/Descr.WD3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\zocial\zocial-regular-webfont.eot" afterPath="$PROJECT_DIR$/public/back/css/icons/zocial/zocial-regular-webfont.eot" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\zocial\zocial-regular-webfont.svg" afterPath="$PROJECT_DIR$/public/back/css/icons/zocial/zocial-regular-webfont.svg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\icons\zocial\zocial-regular-webfont.ttf" afterPath="$PROJECT_DIR$/public/back/css/icons/zocial/zocial-regular-webfont.ttf" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\plugins.min.css" afterPath="$PROJECT_DIR$/public/back/css/plugins.min.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\css\style.min.css" afterPath="$PROJECT_DIR$/public/back/css/style.min.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\fonts\Descr.WD3" afterPath="$PROJECT_DIR$/public/back/fonts/Descr.WD3" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\fonts\carrois.woff" afterPath="$PROJECT_DIR$/public/back/fonts/carrois.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\fonts\opensans-bold.woff" afterPath="$PROJECT_DIR$/public/back/fonts/opensans-bold.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\fonts\opensans-light.woff" afterPath="$PROJECT_DIR$/public/back/fonts/opensans-light.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\fonts\opensans-semibold.woff" afterPath="$PROJECT_DIR$/public/back/fonts/opensans-semibold.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\fonts\opensans.woff" afterPath="$PROJECT_DIR$/public/back/fonts/opensans.woff" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\account\login-logo.png" afterPath="$PROJECT_DIR$/public/back/img/account/login-logo.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\account\login-questionmark-icon.png" afterPath="$PROJECT_DIR$/public/back/img/account/login-questionmark-icon.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\account\register-icon.png" afterPath="$PROJECT_DIR$/public/back/img/account/register-icon.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\account\user-icon.png" afterPath="$PROJECT_DIR$/public/back/img/account/user-icon.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar1.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar1.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar10.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar10.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar10_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar10_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar11.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar11.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar11_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar11_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar12.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar12.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar12_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar12_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar13.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar13.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar13_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar13_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar1_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar1_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar2.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar2.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar2_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar2_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar3.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar3.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar3_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar3_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar4.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar4.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar4_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar4_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar5.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar5.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar5_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar5_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar6.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar6.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar6_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar6_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar7.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar7.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar7_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar7_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar8.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar8.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar8_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar8_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar9.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar9.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\avatars\avatar9_big.png" afterPath="$PROJECT_DIR$/public/back/img/avatars/avatar9_big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\animal1.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/animal1.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\animal2.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/animal2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\animal3.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/animal3.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\animal4.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/animal4.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\nature1.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/nature1.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\nature2.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/nature2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\nature3.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/nature3.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\nature4.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/nature4.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\nature5.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/nature5.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\nature6.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/nature6.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\transport1.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/transport1.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\transport2.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/transport2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gallery\transport3.jpg" afterPath="$PROJECT_DIR$/public/back/img/gallery/transport3.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gradient-big.png" afterPath="$PROJECT_DIR$/public/back/img/gradient-big.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\gradient.png" afterPath="$PROJECT_DIR$/public/back/img/gradient.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\logo-fm.png" afterPath="$PROJECT_DIR$/public/back/img/logo-fm.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\construction1.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/construction1.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\construction2.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/construction2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\construction3.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/construction3.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\construction4.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/construction4.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\me.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/me.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\more.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/more.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\nature1.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/nature1.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\nature2.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/nature2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\nature3.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/nature3.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\nature4.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/nature4.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\pics1.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/pics1.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\pics2.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/pics2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\pics3.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/pics3.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\pics4.jpg" afterPath="$PROJECT_DIR$/public/back/img/profil_page/pics4.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\review1.png" afterPath="$PROJECT_DIR$/public/back/img/profil_page/review1.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\profil_page\review2.png" afterPath="$PROJECT_DIR$/public/back/img/profil_page/review2.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\small\bars.png" afterPath="$PROJECT_DIR$/public/back/img/small/bars.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\small\bars_active.png" afterPath="$PROJECT_DIR$/public/back/img/small/bars_active.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\small\key_small.png" afterPath="$PROJECT_DIR$/public/back/img/small/key_small.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\small\lines.png" afterPath="$PROJECT_DIR$/public/back/img/small/lines.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\small\lines_active.png" afterPath="$PROJECT_DIR$/public/back/img/small/lines_active.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\small\user_small.png" afterPath="$PROJECT_DIR$/public/back/img/small/user_small.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\various\image_crop1.jpg" afterPath="$PROJECT_DIR$/public/back/img/various/image_crop1.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\various\image_crop2.jpg" afterPath="$PROJECT_DIR$/public/back/img/various/image_crop2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\various\timeline1.jpg" afterPath="$PROJECT_DIR$/public/back/img/various/timeline1.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\various\timeline2.jpg" afterPath="$PROJECT_DIR$/public/back/img/various/timeline2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\widgets\compas.png" afterPath="$PROJECT_DIR$/public/back/img/widgets/compas.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\widgets\logo-nike.png" afterPath="$PROJECT_DIR$/public/back/img/widgets/logo-nike.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\widgets\mountain.jpg" afterPath="$PROJECT_DIR$/public/back/img/widgets/mountain.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\widgets\pensils.png" afterPath="$PROJECT_DIR$/public/back/img/widgets/pensils.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\widgets\profil2.jpg" afterPath="$PROJECT_DIR$/public/back/img/widgets/profil2.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\img\widgets\profil3.jpg" afterPath="$PROJECT_DIR$/public/back/img/widgets/profil3.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\account.js" afterPath="$PROJECT_DIR$/public/back/js/account.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\animations.js" afterPath="$PROJECT_DIR$/public/back/js/animations.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\application.js" afterPath="$PROJECT_DIR$/public/back/js/application.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\calendar.js" afterPath="$PROJECT_DIR$/public/back/js/calendar.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\charts.js" afterPath="$PROJECT_DIR$/public/back/js/charts.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\dashboard.js" afterPath="$PROJECT_DIR$/public/back/js/dashboard.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\editor.js" afterPath="$PROJECT_DIR$/public/back/js/editor.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\form.js" afterPath="$PROJECT_DIR$/public/back/js/form.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\form_wizard.js" afterPath="$PROJECT_DIR$/public/back/js/form_wizard.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\gallery.js" afterPath="$PROJECT_DIR$/public/back/js/gallery.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\icons.js" afterPath="$PROJECT_DIR$/public/back/js/icons.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\image_croping.js" afterPath="$PROJECT_DIR$/public/back/js/image_croping.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\mailbox.js" afterPath="$PROJECT_DIR$/public/back/js/mailbox.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\maps-google.js" afterPath="$PROJECT_DIR$/public/back/js/maps-google.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\notifications.js" afterPath="$PROJECT_DIR$/public/back/js/notifications.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\session_timeout.js" afterPath="$PROJECT_DIR$/public/back/js/session_timeout.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\slider.js" afterPath="$PROJECT_DIR$/public/back/js/slider.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\table_dynamic.js" afterPath="$PROJECT_DIR$/public/back/js/table_dynamic.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\table_editable.js" afterPath="$PROJECT_DIR$/public/back/js/table_editable.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\timeline.js" afterPath="$PROJECT_DIR$/public/back/js/timeline.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\tree_view.js" afterPath="$PROJECT_DIR$/public/back/js/tree_view.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\js\widgets.js" afterPath="$PROJECT_DIR$/public/back/js/widgets.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\backstretch\backstretch.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/backstretch/backstretch.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap-datepicker\bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap-datepicker/bootstrap-datepicker.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap-dropdown\bootstrap-hover-dropdown.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap-dropdown/bootstrap-hover-dropdown.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap-progressbar\bootstrap-progressbar.js" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap-progressbar/bootstrap-progressbar.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap-progressbar\bootstrap-progressbar.js.readme" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap-progressbar/bootstrap-progressbar.js.readme" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap-select\bootstrap-select.js" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap-select/bootstrap-select.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap-slider\bootstrap-slider.css" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap-slider/bootstrap-slider.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap-slider\bootstrap-slider.js" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap-slider/bootstrap-slider.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap-switch\bootstrap-switch.js" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap-switch/bootstrap-switch.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\bootstrap\bootstrap.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/bootstrap/bootstrap.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\breakpoints\breakpoints.js" afterPath="$PROJECT_DIR$/public/back/plugins/breakpoints/breakpoints.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-circliful\css\jquery.circliful.css" afterPath="$PROJECT_DIR$/public/back/plugins/charts-circliful/css/jquery.circliful.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-circliful\js\jquery.circliful.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-circliful/js/jquery.circliful.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-d3\d3.v3.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-d3/d3.v3.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-d3\nv.d3.css" afterPath="$PROJECT_DIR$/public/back/plugins/charts-d3/nv.d3.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-d3\nv.d3.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-d3/nv.d3.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-flot\jquery.flot.animator.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-flot/jquery.flot.animator.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-flot\jquery.flot.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-flot/jquery.flot.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-flot\jquery.flot.resize.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-flot/jquery.flot.resize.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-flot\jquery.flot.time.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-flot/jquery.flot.time.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-morris\morris.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-morris/morris.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-morris\raphael.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-morris/raphael.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\css\extensions5e1f.css" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/css/extensions5e1f.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\interp_cardinal.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/interp_cardinal.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\interp_linear.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/interp_linear.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\interp_step.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/interp_step.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\offset_pct.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/offset_pct.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\offset_stack.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/offset_stack.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\offset_stream.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/offset_stream.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\offset_value.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/offset_value.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\om_bar.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/om_bar.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\om_lines.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/om_lines.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\om_scatter.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/om_scatter.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\images\om_stack.png" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/images/om_stack.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\examples\js\extensions.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/examples/js/extensions.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\rickshaw.css" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/rickshaw.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Class.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Class.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Color.Palette.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Color.Palette.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Compat.ClassList.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Compat.ClassList.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Fixtures.Color.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Fixtures.Color.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Fixtures.Number.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Fixtures.Number.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Fixtures.RandomData.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Fixtures.RandomData.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Fixtures.Time.Local.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Fixtures.Time.Local.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Fixtures.Time.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Fixtures.Time.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Annotate.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Annotate.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Axis.Time.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Axis.Time.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Axis.Y.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Axis.Y.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Behavior.Series.Highlight.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Behavior.Series.Highlight.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Behavior.Series.Order.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Behavior.Series.Order.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Behavior.Series.Toggle.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Behavior.Series.Toggle.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.HoverDetail.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.HoverDetail.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Legend.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Legend.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.RangeSlider.Preview.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.RangeSlider.Preview.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.RangeSlider.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.RangeSlider.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Renderer.Area.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Renderer.Area.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Renderer.Bar.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Renderer.Bar.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Renderer.Line.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Renderer.Line.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Renderer.ScatterPlot.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Renderer.ScatterPlot.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Renderer.Stack.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Renderer.Stack.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Renderer.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Renderer.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.Smoother.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.Smoother.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.Graph.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.Graph.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\src\js\Rickshaw.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/src/js/Rickshaw.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-rickshaw\vendor\d3.v3.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-rickshaw/vendor/d3.v3.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\charts-sparkline\sparkline.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/charts-sparkline/sparkline.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\cke-editor\adapters\jquery.js" afterPath="$PROJECT_DIR$/public/back/plugins/cke-editor/adapters/jquery.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\cke-editor\ckeditor.js" afterPath="$PROJECT_DIR$/public/back/plugins/cke-editor/ckeditor.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\cke-editor\sample.jpg" afterPath="$PROJECT_DIR$/public/back/plugins/cke-editor/sample.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datatables\dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/public/back/plugins/datatables/dataTables.bootstrap.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datatables\dataTables.css" afterPath="$PROJECT_DIR$/public/back/plugins/datatables/dataTables.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datatables\dataTables.tableTools.css" afterPath="$PROJECT_DIR$/public/back/plugins/datatables/dataTables.tableTools.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datatables\dataTables.tableTools.js" afterPath="$PROJECT_DIR$/public/back/plugins/datatables/dataTables.tableTools.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datatables\dynamic\jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/datatables/dynamic/jquery.dataTables.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datatables\sort_asc_disabled.png" afterPath="$PROJECT_DIR$/public/back/plugins/datatables/sort_asc_disabled.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datatables\sort_desc_disabled.png" afterPath="$PROJECT_DIR$/public/back/plugins/datatables/sort_desc_disabled.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datatables\table.editable.html" afterPath="$PROJECT_DIR$/public/back/plugins/datatables/table.editable.html" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datetimepicker\jquery.datetimepicker.css" afterPath="$PROJECT_DIR$/public/back/plugins/datetimepicker/jquery.datetimepicker.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\datetimepicker\jquery.datetimepicker.js" afterPath="$PROJECT_DIR$/public/back/plugins/datetimepicker/jquery.datetimepicker.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\dropzone\dropzone.css" afterPath="$PROJECT_DIR$/public/back/plugins/dropzone/dropzone.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\dropzone\dropzone.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/dropzone/dropzone.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\dropzone\spritemap.png" afterPath="$PROJECT_DIR$/public/back/plugins/dropzone/spritemap.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\dropzone\spritemap@2x.png" afterPath="$PROJECT_DIR$/public/back/plugins/dropzone/spritemap@2x.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\font-awesome-animation\font-awesome-animation.min.html" afterPath="$PROJECT_DIR$/public/back/plugins/font-awesome-animation/font-awesome-animation.min.html" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\fullcalendar\fullcalendar.css" afterPath="$PROJECT_DIR$/public/back/plugins/fullcalendar/fullcalendar.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\fullcalendar\fullcalendar.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/fullcalendar/fullcalendar.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\fullcalendar\moment.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/fullcalendar/moment.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\gallery-mixitup\jquery.mixitup.js" afterPath="$PROJECT_DIR$/public/back/plugins/gallery-mixitup/jquery.mixitup.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\google-maps\gmaps.js" afterPath="$PROJECT_DIR$/public/back/plugins/google-maps/gmaps.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\google-maps\markerclusterer.js" afterPath="$PROJECT_DIR$/public/back/plugins/google-maps/markerclusterer.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\icheck\custom.js" afterPath="$PROJECT_DIR$/public/back/plugins/icheck/custom.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\icheck\icheck.js" afterPath="$PROJECT_DIR$/public/back/plugins/icheck/icheck.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\idle-timeout\jquery.idletimeout.js" afterPath="$PROJECT_DIR$/public/back/plugins/idle-timeout/jquery.idletimeout.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\idle-timeout\jquery.idletimer.js" afterPath="$PROJECT_DIR$/public/back/plugins/idle-timeout/jquery.idletimer.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jQRangeSliders\iThing.css" afterPath="$PROJECT_DIR$/public/back/plugins/jQRangeSliders/iThing.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jQRangeSliders\jQAllRangeSliders-min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jQRangeSliders/jQAllRangeSliders-min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jQRangeSliders\jQAllRangeSliders-withRuler-min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jQRangeSliders/jQAllRangeSliders-withRuler-min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jcrop\Jcrop.gif" afterPath="$PROJECT_DIR$/public/back/plugins/jcrop/Jcrop.gif" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jcrop\jquery.Jcrop.min.css" afterPath="$PROJECT_DIR$/public/back/plugins/jcrop/jquery.Jcrop.min.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jcrop\jquery.Jcrop.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jcrop/jquery.Jcrop.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jnotify\jNotify.jquery.css" afterPath="$PROJECT_DIR$/public/back/plugins/jnotify/jNotify.jquery.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jnotify\jNotify.jquery.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jnotify/jNotify.jquery.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-1.11.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-1.11.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\canvas-to-blob.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/canvas-to-blob.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\css\jquery.fileupload-ui.css" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/css/jquery.fileupload-ui.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\css\jquery.fileupload.css" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/css/jquery.fileupload.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\img\loading.gif" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/img/loading.gif" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\img\progressbar.gif" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/img/progressbar.gif" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\jquery.blueimp-gallery.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/jquery.blueimp-gallery.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\jquery.fileupload-audio.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/jquery.fileupload-audio.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\jquery.fileupload-image.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/jquery.fileupload-image.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\jquery.fileupload-process.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/jquery.fileupload-process.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\jquery.fileupload-ui.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/jquery.fileupload-ui.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\jquery.fileupload-validate.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/jquery.fileupload-validate.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\jquery.fileupload-video.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/jquery.fileupload-video.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\jquery.fileupload.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/jquery.fileupload.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\jquery.iframe-transport.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/jquery.iframe-transport.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\main.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/main.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\js\vendor\jquery.ui.widget.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/js/vendor/jquery.ui.widget.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\load-image.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/load-image.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-file-upload\tmpl.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-file-upload/tmpl.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-migrate-1.2.1.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-migrate-1.2.1.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-steps\jquery.steps.css" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-steps/jquery.steps.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-steps\jquery.steps.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-steps/jquery.steps.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-ui-touch-punch\jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-ui\jquery-ui-1.10.4.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-ui/jquery-ui-1.10.4.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-validation\additional-methods.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-validation/additional-methods.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery-validation\jquery.validate.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery-validation/jquery.validate.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jquery.cookie.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/jquery.cookie.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jstree\jstree.dnd.js" afterPath="$PROJECT_DIR$/public/back/plugins/jstree/jstree.dnd.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jstree\jstree.js" afterPath="$PROJECT_DIR$/public/back/plugins/jstree/jstree.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jstree\jstree.types.js" afterPath="$PROJECT_DIR$/public/back/plugins/jstree/jstree.types.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jstree\src\themes\default\32px.png" afterPath="$PROJECT_DIR$/public/back/plugins/jstree/src/themes/default/32px.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jstree\src\themes\default\40px.png" afterPath="$PROJECT_DIR$/public/back/plugins/jstree/src/themes/default/40px.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jstree\src\themes\default\style.css" afterPath="$PROJECT_DIR$/public/back/plugins/jstree/src/themes/default/style.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\jstree\src\themes\default\throbber.gif" afterPath="$PROJECT_DIR$/public/back/plugins/jstree/src/themes/default/throbber.gif" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\magnific\jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/magnific/jquery.magnific-popup.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\magnific\magnific-popup.css" afterPath="$PROJECT_DIR$/public/back/plugins/magnific/magnific-popup.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\mcustom-scrollbar\jquery.mCustomScrollbar.concat.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/mcustom-scrollbar/jquery.mCustomScrollbar.concat.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\metrojs\images\metroIcons.jpg" afterPath="$PROJECT_DIR$/public/back/plugins/metrojs/images/metroIcons.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\metrojs\images\metroIcons_light.jpg" afterPath="$PROJECT_DIR$/public/back/plugins/metrojs/images/metroIcons_light.jpg" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\metrojs\metrojs.css" afterPath="$PROJECT_DIR$/public/back/plugins/metrojs/metrojs.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\metrojs\metrojs.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/metrojs/metrojs.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\mmenu\js\jquery.mmenu.min.all.js" afterPath="$PROJECT_DIR$/public/back/plugins/mmenu/js/jquery.mmenu.min.all.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\modal\css\component.css" afterPath="$PROJECT_DIR$/public/back/plugins/modal/css/component.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\modal\js\classie.js" afterPath="$PROJECT_DIR$/public/back/plugins/modal/js/classie.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\modal\js\modalEffects.js" afterPath="$PROJECT_DIR$/public/back/plugins/modal/js/modalEffects.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\modernizr\modernizr-2.6.2-respond-1.1.0.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\nestable\jquery.nestable.js" afterPath="$PROJECT_DIR$/public/back/plugins/nestable/jquery.nestable.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\nprogress\nprogress.js" afterPath="$PROJECT_DIR$/public/back/plugins/nprogress/nprogress.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\numerator\jquery-numerator.js" afterPath="$PROJECT_DIR$/public/back/plugins/numerator/jquery-numerator.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\parsley\parsley.extend.js" afterPath="$PROJECT_DIR$/public/back/plugins/parsley/parsley.extend.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\parsley\parsley.js" afterPath="$PROJECT_DIR$/public/back/plugins/parsley/parsley.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\pickadate\picker.date.js" afterPath="$PROJECT_DIR$/public/back/plugins/pickadate/picker.date.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\pickadate\picker.js" afterPath="$PROJECT_DIR$/public/back/plugins/pickadate/picker.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\pickadate\picker.time.js" afterPath="$PROJECT_DIR$/public/back/plugins/pickadate/picker.time.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\pickadate\themes\default.css" afterPath="$PROJECT_DIR$/public/back/plugins/pickadate/themes/default.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\pickadate\themes\default.date.css" afterPath="$PROJECT_DIR$/public/back/plugins/pickadate/themes/default.date.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\pickadate\themes\default.time.css" afterPath="$PROJECT_DIR$/public/back/plugins/pickadate/themes/default.time.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\quicksearch\jquery.quicksearch.js" afterPath="$PROJECT_DIR$/public/back/plugins/quicksearch/jquery.quicksearch.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\simple-weather\jquery.simpleWeather.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/simple-weather/jquery.simpleWeather.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\sortable\jquery-sortable.js" afterPath="$PROJECT_DIR$/public/back/plugins/sortable/jquery-sortable.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\summernote\summernote.css" afterPath="$PROJECT_DIR$/public/back/plugins/summernote/summernote.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\summernote\summernote.min.js" afterPath="$PROJECT_DIR$/public/back/plugins/summernote/summernote.min.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\visible\jquery.visible.js" afterPath="$PROJECT_DIR$/public/back/plugins/visible/jquery.visible.js" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\wizard\folder.png" afterPath="$PROJECT_DIR$/public/back/plugins/wizard/folder.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\wizard\groups.png" afterPath="$PROJECT_DIR$/public/back/plugins/wizard/groups.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\wizard\server_new.png" afterPath="$PROJECT_DIR$/public/back/plugins/wizard/server_new.png" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\wizard\wizard.css" afterPath="$PROJECT_DIR$/public/back/plugins/wizard/wizard.css" />
-      <change type="MOVED" beforePath="G:\wamp\www\FM\Store\Store\public\plugins\wizard\wizard.js" afterPath="$PROJECT_DIR$/public/back/plugins/wizard/wizard.js" />
     </list>
     <ignored path="back-Store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -352,56 +32,6 @@
     <option name="GROUP_BY_TYPE" value="true" />
     <option name="SORT_CHILDREN" value="false" />
     <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fm_store@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="fm_store" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fm_store@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="fm_store" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fm_store@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="fm_store" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="invite" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -409,74 +39,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69545454" vertical-offset="0" max-vertical-offset="440">
-              <caret line="17" column="116" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/base/footer.blade.php">
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="450">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="391">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/pages/edit.blade.php">
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.0" vertical-offset="504" max-vertical-offset="7614">
-              <caret line="49" column="148" selection-start-line="49" selection-start-column="148" selection-end-line="49" selection-end-column="160" />
+            <state vertical-scroll-proportion="2.7307692" vertical-offset="173" max-vertical-offset="731">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InviteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InviteController.php">
+      <file leaf-file-name="product.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/pages/product.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="432">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#39#61#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="invite.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/pages/invite.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6296296" vertical-offset="28" max-vertical-offset="504">
-              <caret line="13" column="98" selection-start-line="13" selection-start-column="98" selection-end-line="13" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.21834862" vertical-offset="34" max-vertical-offset="782">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/front/css/style.css">
+      <file leaf-file-name="buttons.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/front/css/buttons.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/base/header.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="432">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3338" max-vertical-offset="25483">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -485,8 +93,18 @@
       <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="414">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="408">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/base/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -519,18 +137,23 @@
         <option value="$PROJECT_DIR$/resources/views/dashboard/base/sidebar-menu.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/dashboard/base/topbar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/pages/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/pages/invite.balde.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/pages/invite.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/base/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/base/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/InviteController.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/base/header.blade.php" />
         <option value="$PROJECT_DIR$/public/front/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/front/pages/invite.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/dashboard/base/topbar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/product.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/snippets/product.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/master.blade.php" />
+        <option value="$PROJECT_DIR$/public/front/css/buttons.css" />
+        <option value="$PROJECT_DIR$/resources/views/front/base/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/pages/product.blade.php" />
       </list>
     </option>
   </component>
@@ -541,8 +164,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -690,80 +313,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -829,24 +378,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -866,28 +397,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Requests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -930,6 +439,8 @@
       <recent name="G:\Github\Store\Store\resources\views\dashboard\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Github\Store\Store\resources\views\front\pages" />
+      <recent name="G:\Github\Store\Store\resources\views\front\snippets" />
       <recent name="G:\wamp\www\FM\Store\Store\public\back" />
       <recent name="G:\wamp\www\FM\Store\Store\resources\views\front\pages" />
       <recent name="G:\wamp\www\FM\Store\Store\resources\views\front" />
@@ -943,17 +454,20 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -962,9 +476,6 @@
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -980,21 +491,28 @@
       <option name="number" value="Default" />
       <updated>1423779827583</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add invite page, frontOffice initialize and a more complex edit account page">
+      <created>1424176185908</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1424176185908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32625994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32625994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32352942" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17159383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1709531" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18508998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18759455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1003,9 +521,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1034,13 +552,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/base/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/pages/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="7191">
+          <caret line="49" column="148" selection-start-line="49" selection-start-column="148" selection-end-line="49" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InviteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="408">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/invite.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="476">
+          <caret line="13" column="98" selection-start-line="13" selection-start-column="98" selection-end-line="13" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1054">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/base/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="391">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboard/base/topbar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,9 +631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="630">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#39#61#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,37 +785,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="774">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="e#39#61#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/65f8f97c/ef64ecae-07ba-4737-bb70-d16ef833a17c/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/base/topbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.407408" vertical-offset="3868" max-vertical-offset="4554">
-          <caret line="235" column="46" selection-start-line="235" selection-start-column="46" selection-end-line="235" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboard/pages/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0" vertical-offset="504" max-vertical-offset="7614">
+        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="7191">
           <caret line="49" column="148" selection-start-line="49" selection-start-column="148" selection-end-line="49" selection-end-column="160" />
           <folding />
         </state>
@@ -1242,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboard/base/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="450">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding />
@@ -1269,14 +822,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5960265" vertical-offset="0" max-vertical-offset="453">
           <caret line="15" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/base/header.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/invite.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="476">
+          <caret line="13" column="98" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1289,36 +841,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InviteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="414">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="408">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/base/topbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8352601" vertical-offset="0" max-vertical-offset="4301">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.37325907" vertical-offset="355" max-vertical-offset="714">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7307692" vertical-offset="173" max-vertical-offset="731">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/invite.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6296296" vertical-offset="28" max-vertical-offset="504">
-          <caret line="13" column="98" selection-start-line="13" selection-start-column="98" selection-end-line="13" selection-end-column="98" />
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="391">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InviteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="432">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69545454" vertical-offset="0" max-vertical-offset="440">
-          <caret line="17" column="116" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="408">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/base/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/css/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3338" max-vertical-offset="25483">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21834862" vertical-offset="34" max-vertical-offset="782">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>

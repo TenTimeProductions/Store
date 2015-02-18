@@ -17,3 +17,4 @@
 
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="/front/css/style.css" rel="stylesheet">
+<link href="/front/css/buttons.css" rel="stylesheet">
