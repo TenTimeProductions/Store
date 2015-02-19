@@ -15,6 +15,8 @@ Route::get('account', 'DashboardController@account');
 Route::get('account/edit', 'DashboardController@edit');
 Route::get('contact', 'DashboardController@contact');
 
+Route::get('team', 'DashboardController@team');
+
 Route::get('inv/{username}', 'InviteController@invite'); //TODO adicionar tbm uma key para saber de quem é o convite
 
 

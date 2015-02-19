@@ -34,4 +34,9 @@ class DashboardController extends Controller {
         return view('dashboard.pages.account');
     }
 
+    public function team(){
+
+        return view('dashboard.pages.team');
+    }
+
 }
