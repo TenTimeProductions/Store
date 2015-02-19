@@ -15,7 +15,7 @@
                 <i class="fa fa-outdent"></i>
             </a>
             <a class="navbar-brand" href="index.html" style="padding: 5px 0 5px 40px;">
-                <img src="/back/img/logo-fm.png" alt="logo" height="100%">
+                <img src="/geral/img/logo-fm.png" alt="logo" height="100%">
             </a>
         </div>
         <div class="navbar-center">Blank Page</div>

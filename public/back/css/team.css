@@ -1,0 +1,88 @@
+.form-control {
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #999999;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 5px 6px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+    border-radius: 0;
+    padding: 0 0 0 10px;
+}
+.stylish-input-group .form-control{
+    border-left:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.modal-body{
+    padding: 20px 0;
+}
+.header-team-invite{
+    padding: 20px;
+    text-align: center;
+}
+.logo-invite{
+    text-align: center;
+    margin: 0 auto 20px;
+    width: 60px;
+    height: auto;
+}
+.align-center{
+    text-align: center;
+    margin: auto;
+}
+.team-counter{
+    display: block;
+    margin: 10px;
+}
+.team-accepted{
+    background: #F9F9FB;
+    padding: 5px 20px;
+    border-top: 1px solid rgb(197, 194, 194);
+}
+.team-invite-list{
+    padding: 5px 20px;
+}
+.team-invite-list li{
+    border-bottom: 1px  solid rgb(219, 219, 219);
+    height: 50px;
+}
+.team-invite-info{
+    float: left;
+    margin: 2px 0 0;
+}
+.team-invite-avatar{
+    float: left;
+    width: 30px;
+    margin: 5px 10px;
+}
+.team-invite-name{
+    color: rgb(160, 2, 43);
+    font-weight: 600;
+}
+.team-invite-email{
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(153, 153, 153);
+}
+.team-invite-accept{
+    float: right;
+    font-size: 20px;
+    color: #56B169;
+    margin: 10px 5px 0;
+}

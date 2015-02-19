@@ -14,3 +14,5 @@
     <link rel="stylesheet" href="/back/plugins/font-awesome-animation/font-awesome-animation.min.html">
     <!-- END PAGE LEVEL STYLE -->
     <script src="/back/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>

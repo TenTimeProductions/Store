@@ -2,6 +2,9 @@
 
 @section('header')
     <style>
+        #main-content {
+            background-color: #F2F2F2;
+        }
         .progress {
             height: 7px;
             background-color: #C3C3C3;
@@ -16,8 +19,8 @@
             padding: 15px;
         }
         .team-leader{
-            background: rgba(189, 189, 189, 0.21);
-            box-shadow: 0 0 3px 1px rgb(158, 155, 155);
+            background: rgba(189, 189, 189, 0.06);
+            box-shadow: 0 0 1px 1px rgb(218, 212, 212);
         }
         .team-member-img{
             text-align: center;
@@ -57,6 +60,7 @@
             height: 12px;
         }
     </style>
+    <link rel="stylesheet" href="/back/css/team.css"/>
 @endsection
 @section('content')
     <div id="main-content">
@@ -162,12 +166,14 @@
 
             <div class="col-md-3">
                 <div class="team-member">
-                    <div class="team-member-img">
-                       <span class="glyphicon glyphicon-plus team-member-add-circle"></span>
-                    </div>
-                    <div class="team-member-add">
-                        Adicionar novo <br> Membro de Equipa
-                    </div>
+                    <a class="modal-team-add" href="#team-modal" data-toggle="modal" data-target="#team-modal">
+                        <div class="team-member-img">
+                           <span class="glyphicon glyphicon-plus team-member-add-circle"></span>
+                        </div>
+                        <div class="team-member-add">
+                            Adicionar novo <br> Membro de Equipa
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -220,4 +226,7 @@
             </div>
         </div>
     </div>
+@endsection
+@section('footer')
+    @include('dashboard.features.modal-team');
 @endsection
