@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Loja</title>
+    @yield('title')
     @include('front.base.header')
 
     @yield('header')

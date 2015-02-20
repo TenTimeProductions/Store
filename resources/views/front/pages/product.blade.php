@@ -1,6 +1,10 @@
 @extends('front.master')
 
 
+@section('title')
+    <title>Produtos | FM Group</title>
+@endsection
+
 @section('header')
     <style>
         .square{

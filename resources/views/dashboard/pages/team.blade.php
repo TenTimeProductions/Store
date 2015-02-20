@@ -1,5 +1,9 @@
 @extends('dashboard.master')
 
+@section('title')
+    <title>Equipa</title>
+@endsection
+
 @section('header')
     <style>
         #main-content {
@@ -16,7 +20,7 @@
         }
         .team-member{
             text-align: center;
-            padding: 15px;
+            padding: 30px 0 20px 0;
         }
         .team-leader{
             background: rgba(189, 189, 189, 0.06);
@@ -227,6 +231,7 @@
         </div>
     </div>
 @endsection
+
 @section('footer')
     @include('dashboard.features.modal-team');
 @endsection

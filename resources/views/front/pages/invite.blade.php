@@ -1,5 +1,9 @@
 @extends('front.master')
 
+@section('title')
+    <title>Convite de {{ $seller->name }} | FM Group</title>
+@endsection
+
 @section('content')
 
     <div class="container">

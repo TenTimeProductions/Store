@@ -9,6 +9,9 @@
     <link href="/back/css/bootstrap.min.css" rel="stylesheet">
     <link href="/back/css/plugins.min.css" rel="stylesheet">
     <link href="/back/css/style.min.css" rel="stylesheet">
+
+
+    <link href="/back/css/modifications.css" rel="stylesheet">
     <!-- END  MANDATORY STYLE -->
     <!-- BEGIN PAGE LEVEL STYLE -->
     <link rel="stylesheet" href="/back/plugins/font-awesome-animation/font-awesome-animation.min.html">

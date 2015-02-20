@@ -17,7 +17,24 @@
  *
  ***************************************************************************************/
 
+//Route::get('/', 'InviteController@invite');
+//Route::get('home', 'InviteController@invite');
+
 Route::get('inv/{username}', 'InviteController@invite'); //TODO adicionar tbm uma key para saber de quem é o convite
+
+//Route::get('login', 'InviteController@invite');
+//Route::get('logout', 'InviteController@invite');
+//Route::get('register', 'InviteController@invite');
+
+//Route::get('faq', 'InviteController@invite');
+//Route::get('about', 'InviteController@invite');
+//Route::get('about/fm', 'InviteController@invite');
+//Route::get('contact', 'InviteController@invite');
+//Route::get('terms', 'InviteController@invite');
+//Route::get('privacy', 'InviteController@invite');
+
+//Route::get('newsletter', 'InviteController@invite');
+//Route::get('promo', 'InviteController@invite');
 
 /***************************************************************************************
  *
@@ -25,6 +42,15 @@ Route::get('inv/{username}', 'InviteController@invite'); //TODO adicionar tbm um
  *
  ***************************************************************************************/
 
+
+//Route::get('store/home', 'ProductController@index');
+//Route::get('store/detail/{id}/{name}', 'ProductController@index');
+//Route::get('store/cart', 'ProductController@index');
+//Route::get('store/checkout', 'ProductController@index');
+//Route::get('store/item', 'ProductController@index');
+//Route::get('store/item', 'ProductController@index');
+//Route::get('store/search', 'ProductController@index');
+//Route::get('store/search/{word}', 'ProductController@index');
 
 Route::get('store/item', 'ProductController@index');
 
@@ -34,20 +60,20 @@ Route::get('store/item', 'ProductController@index');
  *
  ***************************************************************************************/
 
-Route::get('dashboard', 'DashboardController@index');                       //Pagina Inicial
+Route::get('/dashboard', 'DashboardController@index');                       //Pagina Inicial
 
 //Route::get('dashboard/login', 'DashboardController@index');               //LogIn
 //Route::get('dashboard/logout', 'DashboardController@index');              //LogOut
 
-Route::get('dashboard/account', 'DashboardController@account');             //Conta
-Route::get('dashboard/account/edit', 'DashboardController@index');          //Editar Conta
+Route::get('/dashboard/account', 'DashboardController@account');             //Conta
+Route::get('/dashboard/account/edit', 'DashboardController@account_edit');          //Editar Conta
 //Route::get('dashboard/account/share', 'DashboardController@index');       //Partilhar conta de Vendedor
 
 //Route::get('dashboard/shop/going', 'DashboardController@index');          //Compras a decorrer
 //Route::get('dashboard/shop/complete', 'DashboardController@index');       //Compras completas
 //Route::get('dashboard/shop/standby', 'DashboardController@index');        //Compras pendentes
 
-Route::get('dashboard/team', 'DashboardController@team');                   //Equipa
+Route::get('/dashboard/team', 'DashboardController@team');                   //Equipa
 
 //Route::get('dashboard/email', 'DashboardController@index');               //Email
 //Route::get('dashboard/email/new', 'DashboardController@index');           //Novo Email

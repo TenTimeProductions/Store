@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>teste</title>
+    @yield('title')
     @include('dashboard.base.header')
     @yield('header')
 </head>

@@ -21,7 +21,7 @@ class DashboardController extends Controller {
         return view('dashboard.pages.account', compact('user'));
     }
 
-    public function edit(){
+    public function account_edit(){
 
         $user = Users::find(1);
         // dd($user);

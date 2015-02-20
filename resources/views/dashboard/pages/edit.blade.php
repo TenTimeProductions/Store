@@ -409,7 +409,7 @@
                         </div>
                     </div>
                     <!--END TABS-->
-                </form>=
+                </form>
             </div>
         </div>
     </div>
