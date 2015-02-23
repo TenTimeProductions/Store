@@ -22,6 +22,12 @@
             width: 100%;
             text-align: center;
         }
+        .dimmed.dimmable > .ui.animating.dimmer, .dimmed.dimmable > .ui.visible.dimmer, .ui.active.dimmer{
+            z-index: 4;
+        }
+        .ui.button > .icon {
+            margin: 0;
+        }
     </style>
 @endsection
 
@@ -36,14 +42,6 @@
                         <div class="content">
                             <div class="center">
                                 <div class="ui primary button">Ver Detalhes</div>
-                                <div class="details-item">
-                                    <span class="square"></span>
-                                    <span class="square"></span>
-                                    <span class="square"></span>
-                                    <span class="square"></span>
-                                    <span class="square"></span>
-                                    <span class="square"></span>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -70,8 +68,8 @@
                     <div class="ui inverted dimmer">
                         <div class="content">
                             <div class="center">
-                                <div class="ui primary button">Ver Detalhes</div>
-                                <div class="ui green button"><i class="shop icon"></i></div>
+                                <div class="ui primary button"><i class="search icon"></i></div>
+                                <div class="ui green button"><i class="add to cart icon"></i></div>
                                 <div class="details-item">
                                     <span class="square"></span>
                                     <span class="square"></span>

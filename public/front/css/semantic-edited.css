@@ -1,3 +1,7 @@
+body{
+    color: #2e3233;
+    background-color: #ffffff;
+}
 .ui.cards > .card > .image > img, .ui.card > .image > img {
     border-radius: 0;
 }
@@ -27,4 +31,11 @@
 }
 .ui.menu .item {
     font-size: 1.05rem;
+}
+
+
+
+a {
+    color: #69aa6f;
+    text-decoration: none;
 }

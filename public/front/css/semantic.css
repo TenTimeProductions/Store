@@ -1,4 +1,5 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+
 /*
  * # Semantic UI - 1.9.0
  * https://github.com/Semantic-Org/Semantic-UI
@@ -591,6 +592,7 @@ a {
 
 a:hover {
   color: #00b2f3;
+  text-decoration: none;
 }
 
 /*******************************

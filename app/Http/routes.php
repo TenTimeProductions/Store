@@ -17,7 +17,7 @@
  *
  ***************************************************************************************/
 
-//Route::get('/', 'InviteController@invite');
+Route::get('/', 'InviteController@invite');
 //Route::get('home', 'InviteController@invite');
 
 Route::get('inv/{username}', 'InviteController@invite'); //TODO adicionar tbm uma key para saber de quem é o convite

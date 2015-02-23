@@ -22,4 +22,9 @@
 
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="/front/css/invite-page.css" rel="stylesheet">
-<link href="/front/css/buttons.css" rel="stylesheet">
+
+
+<!-- new menu --><link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="/front/css/style-menu.css"> <!-- Resource style -->
+<script src="/front/js/modernizr.js"></script> <!-- Modernizr -->

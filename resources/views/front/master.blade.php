@@ -7,8 +7,8 @@
 
     @yield('header')
 </head>
-<body>
-@include('front.base.topbar')
+<body class="nav-is-fixed">
+@include('front.base.menu')
 
 
     <div class="ui page grid main">
