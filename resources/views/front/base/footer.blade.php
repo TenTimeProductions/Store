@@ -10,4 +10,12 @@
     $('.special.cards .image').dimmer({
         on: 'hover'
     });
+    $(document).on('click', '.sub-menu-item', function(e){
+        var subMenu = $(this).data('menu');
+        if($('.sub-').parent().hasClass("subMenu-open")){
+
+        }
+        $('#'+ subMenu).parent().toggleClass("subMenu-open");
+        $('#'+ subMenu).toggleClass("show-subMenu");
+    });
 </script>
