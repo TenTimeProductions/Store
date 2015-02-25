@@ -11,7 +11,7 @@ class DashboardController extends Controller {
 
     public function index(){
 
-        return view('dashboard.base.content');
+        return view('dashboard.pages.dashboard');
 	}
 
     public function account(){

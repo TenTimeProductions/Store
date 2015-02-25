@@ -10,12 +10,22 @@
     $('.special.cards .image').dimmer({
         on: 'hover'
     });
+
     $(document).on('click', '.sub-menu-item', function(e){
         var subMenu = $(this).data('menu');
-        if($('.sub-').parent().hasClass("subMenu-open")){
+        //$('.show-subMenu').removeClass("show-subMenu");
 
-        }
         $('#'+ subMenu).parent().toggleClass("subMenu-open");
         $('#'+ subMenu).toggleClass("show-subMenu");
     });
+    $(document).on('click', '.sub-menu-product', function(e){
+        var subMenu = $(this).data('menu');
+        if($(this).hasClass('show-subMenu')){
+            $('.show-subMenu').removeClass('show-subMenu');
+        } else {
+            $('#'+ subMenu).parent().toggleClass("subMenu-open");
+            $('#'+ subMenu).toggleClass("show-subMenu");
+        }
+    });
+
 </script>

@@ -25,12 +25,6 @@
         <div class="four column row">
             @yield('content')
         </div>
-        <div class="four column row">
-            @yield('content')
-        </div>
-        <div class="four column row">
-            @yield('content')
-        </div>
     </div>
     @include('front.base.footer')
 

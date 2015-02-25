@@ -17,7 +17,7 @@
      -moz-transition: all .5s cubic-bezier(.42,0,.58,1);
        -o-transition: all .5s cubic-bezier(.42,0,.58,1);
           transition: all .5s cubic-bezier(.42,0,.58,1);
-  border-bottom: 1px solid rgb(229, 229, 229);
+  border-bottom: 0;
 }
 .sub-menu .item{
   text-decoration: none;
@@ -28,7 +28,8 @@
   display: inline-block;
 }
 .sub-menu.show-subMenu{
-  height: 45px; /* approximate max height */
+    height: 45px; /* approximate max height */
+    border-bottom: 1px solid rgb(229, 229, 229);
 }
 
 .sub-sub-menu{
@@ -39,7 +40,7 @@
   -moz-transition: all .5s cubic-bezier(.42,0,.58,1);
   -o-transition: all .5s cubic-bezier(.42,0,.58,1);
   transition: all .5s cubic-bezier(.42,0,.58,1);
-  border-bottom: 1px solid rgb(229, 229, 229);
+  border-bottom: 0;
 }
 .sub-sub-menu .item{
   text-decoration: none;
@@ -51,4 +52,8 @@
 }
 .sub-sub-menu.show-subMenu{
   height: 145px; /* approximate max height */
+}
+
+.space-for-menu{
+    height: 80px;
 }
