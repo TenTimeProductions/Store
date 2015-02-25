@@ -8,6 +8,7 @@
 
 
     @include('front.base.header')
+	@include('front.base.footer')
 
     @yield('header')
 </head>

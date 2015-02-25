@@ -1,9 +1,20 @@
 @extends('app')
 
+@section('header')
+
+	<script>
+		$(document).ready(function(){
+			$(".form").removeClass("loading");
+		});
+	</script>
+
+@endsection
 @section('content')
-<div class="container-fluid">
+	<div class="ui grid">
 	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
+		<div class="two wide column">
+		</div>
+		<div class="five wide column">
 			<div class="panel panel-default">
 				<div class="panel-heading">Login</div>
 				<div class="panel-body">
@@ -17,14 +28,39 @@
 							</ul>
 						</div>
 					@endif
-
+					<!--aquiiiiiiiiiiiiiiiiiiiiiiiiiiiii-->
+						<div class="ui loading form segment">
+							<form class="form-horizontal" role="form" method="POST" action="/auth/login">
+								<input type="hidden" name="_token" value="{{ csrf_token() }}">
+								<div class="field four-wide column">
+									<div class="field">
+										<label>Email</label>
+										<input placeholder="Email" type="email" name="email" value="{{ old('email') }}">
+									</div>
+									<div class="field">
+										<label>Password</label>
+										<input placeholder="Last Name" type="password" name="password">
+									</div>
+								</div>
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" name="remember">
+										<label>Remember me?</label>
+									</div>
+								</div>
+								<div class="ui submit button">Login</div>
+									<a href="/password/email">Forgot Your Password?</a>
+							</form>
+						</div>
+						<!--AQIIIIIIIIIIIIIIIIIIIIIIIIIIII-->
+				<!-- <div class="ui loading form segment">
 					<form class="form-horizontal" role="form" method="POST" action="/auth/login">
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">E-Mail Address</label>
-							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}">
+							<div class="four wide column ui input">
+								<input type="email" name="email" value="{{ old('email') }}">
 							</div>
 						</div>
 
@@ -54,7 +90,8 @@
 								<a href="/password/email">Forgot Your Password?</a>
 							</div>
 						</div>
-					</form>
+					</form> -->
+					</div>
 				</div>
 			</div>
 		</div>

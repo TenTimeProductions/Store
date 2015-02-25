@@ -29,11 +29,20 @@ Route::controllers([
  *
  ***************************************************************************************/
 
-Route::get('/', 'InviteController@invite');
+//Route::get('/', 'InviteController@invite');
 //Route::get('home', 'InviteController@invite');
 
 Route::get('inv/{username}', 'InviteController@invite'); //TODO adicionar tbm uma key para saber de quem é o convite
+//Route::get('auth/login', 'LoginController@login');
 
+Route::get('/', 'WelcomeController@index');
+
+Route::get('home', 'HomeController@index');
+
+Route::controllers([
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
+]);
 //Route::get('login', 'InviteController@invite');
 //Route::get('logout', 'InviteController@invite');
 //Route::get('register', 'InviteController@invite');
