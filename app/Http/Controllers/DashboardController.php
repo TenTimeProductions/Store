@@ -11,26 +11,30 @@ class DashboardController extends Controller {
 
     public function index(){
 
-        return view('dashboard.pages.dashboard');
+        $user = Users::find(1);
+        $page = 'Dashboard';
+
+        return view('dashboard.pages.dashboard', compact('user', 'page'));
 	}
 
     public function account(){
 
         $user = Users::find(1);
-       // dd($user);
-        return view('dashboard.pages.account', compact('user'));
+        $page = 'Dashboard';
+        return view('dashboard.pages.account', compact('user', 'page'));
     }
 
     public function account_edit(){
-
         $user = Users::find(1);
-        // dd($user);
-        return view('dashboard.pages.edit', compact('user'));
+        $page = 'Dashboard';
+        return view('dashboard.pages.edit', compact('user', 'page'));
     }
 
     public function team(){
 
-        return view('dashboard.pages.team');
+        $user = Users::find(1);
+        $page = 'Dashboard';
+        return view('dashboard.pages.team', compact('user', 'page'));
     }
 
 }

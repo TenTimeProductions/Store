@@ -1,5 +1,9 @@
 @extends('dashboard.master')
 
+@section('title')
+    <title>{{ $user->name }} | {{$page}} - FM Group</title>
+@endsection
+
 @section('header')
     <link href="/back/plugins/fullcalendar/fullcalendar.css" rel="stylesheet">
     <link href="/back/plugins/metrojs/metrojs.css" rel="stylesheet">

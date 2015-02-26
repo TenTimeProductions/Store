@@ -18,7 +18,8 @@
                 <img src="/geral/img/logo-fm.png" alt="logo" height="100%">
             </a>
         </div>
-        <div class="navbar-center">Blank Page</div>
+        <div class="navbar-center">
+            {{ $user->name }} | {{$page}} - FM Group</div>
         <div class="navbar-collapse collapse">
             <!-- BEGIN TOP NAVIGATION MENU -->
             <ul class="nav navbar-nav pull-right header-menu">
