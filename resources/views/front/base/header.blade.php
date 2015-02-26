@@ -9,6 +9,7 @@
 <link href="/back/css/bootstrap.min.css" rel="stylesheet">
 <link href="/back/css/plugins.min.css" rel="stylesheet">
 <link href="/back/css/style.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/front/css/animate.css">
 
 
 <link href="/front/css/semantic.css" rel="stylesheet">
@@ -28,3 +29,7 @@
 
 <link rel="stylesheet" href="/front/css/style-menu.css"> <!-- Resource style -->
 <script src="/front/js/modernizr.js"></script> <!-- Modernizr -->
+<script src="/front/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
