@@ -9,26 +9,11 @@ Primary style
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-}
-
 html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-    font-size: 1.6rem;
-    font-family: "Open Sans", sans-serif;
-    color: #331d35;
-    background-color: #e7e7e7;
-}
-
-a {
-    color: #41307c;
-    text-decoration: none;
-}
 
 /* --------------------------------
 
@@ -175,7 +160,7 @@ Main Components
     color: #ffffff;
     line-height: 150px;
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 7.4rem;
     font-weight: 300;
 }
 @media only screen and (min-width: 1170px) {
@@ -629,8 +614,8 @@ xcustom form elements
 .cd-filter-block input[type='search'],
 .cd-filter-block input[type='text'],
 .cd-filter-block select {
-    width: 100%;
-    padding: .8em;
+    width: 80%;
+    padding: .2em;
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -650,7 +635,7 @@ xcustom form elements
     border-color: transparent;
     background-color: #e6e6e6;
     /* prevent jump - ios devices */
-    font-size: 1.6rem !important;
+    font-size: 1rem !important;
 }
 .cd-filter-block input[type='search']::-webkit-search-cancel-button {
     display: none;
@@ -679,7 +664,7 @@ xcustom form elements
 }
 .cd-filter-block select {
     cursor: pointer;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .cd-filter-block select::-ms-expand {
     display: none;
@@ -705,7 +690,7 @@ xcustom form elements
 .cd-filter-block .checkbox-label,
 .cd-filter-block .radio-label {
     padding-left: 24px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
