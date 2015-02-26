@@ -2,15 +2,12 @@
 
 @section('header')
 
-	<!--<script>
+	<script>
 		$(document).ready(function(){
-			setTimeout(function(){
-				$("#twowide").addClass("two wide column").fadeIn(200);
-				$("#fivewide").removeClass("six wide column").addClass("two wide column");
-				$(".form").removeClass("loading");
-			},500);
+			$(".form").removeClass("loading");
+
 		});
-	</script>-->
+	</script>
 
 @endsection
 @section('content')
@@ -19,7 +16,7 @@
 		</div>
 
 		<div class="five wide column">
-			<section class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+			<div class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
 					<div class="panel panel-default">
 					<div class="panel-heading">Login</div>
 					<div class="panel-body">
@@ -54,7 +51,7 @@
 												<label>Lembrar-me?</label>
 											</div>
 										</div>
-										<div class="ui submit button">Login</div>
+										<div class="ui submit test button">Login</div>
 											<a href="/password/email">Esqueceu a sua password?</a>
 									</form>
 									<div class="field"></div>
@@ -75,14 +72,14 @@
 								</div>
 						</div>
 					</div>
-			</section>
+			</div>
 		</div>
 				<!--LADO ESQUERDO REGISTAR-->
 
 		<div class="two wide column"></div>
 
 			<div class="five wide column">
-				<section class="wow slideInRight" data-wow-duration="2s" data-wow-delay="1s">
+				<div class="wow slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
 
 				<div class="panel panel-default">
 					<div class="panel-heading">Register</div>
@@ -129,8 +126,12 @@
 						</div>
 					</div>
 				</div>
-		</section>
+		</div>
 	</div>
 </div>
+	<script>
+		$('.test.button')
+				.transition('horizontal flip', '500ms')
+		;</script>
 
 @endsection
