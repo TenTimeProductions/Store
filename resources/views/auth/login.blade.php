@@ -11,12 +11,14 @@
 
 @endsection
 @section('content')
+	<div class="grayscale">
+	</div>
 	<div class="ui page grid">
 		<div class="two wide column">
 		</div>
 
 		<div class="five wide column">
-			<div class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+			<div class="wow fadeInUp" data-wow-duration="0.7s">
 					<div class="panel panel-default">
 					<div class="panel-heading">Login</div>
 					<div class="panel-body">
@@ -46,7 +48,7 @@
 											</div>
 										</div>
 										<div class="inline field">
-											<div class="ui checkbox">
+											<div class="checkbox">
 												<input type="checkbox" name="remember">
 												<label>Lembrar-me?</label>
 											</div>
@@ -79,7 +81,7 @@
 		<div class="two wide column"></div>
 
 			<div class="five wide column">
-				<div class="wow slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+				<div class="wow fadeInUp" data-wow-duration="0.7s">
 
 				<div class="panel panel-default">
 					<div class="panel-heading">Register</div>
@@ -130,8 +132,14 @@
 	</div>
 </div>
 	<script>
-		$('.test.button')
-				.transition('horizontal flip', '500ms')
-		;</script>
+		$(".checkbox").change(function() {
+			if(this.checked) {
+				$('.test.button')
+								.transition('horizontal flip', '500ms')
+				;
+			}
+		});
+
+	</script>
 
 @endsection
