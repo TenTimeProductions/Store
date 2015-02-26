@@ -5,7 +5,8 @@
 <!-- New Menu -->
 <script src="/front/js/jquery.mobile.custom.min.js"></script>
 <script src="/front/js/main.js"></script> <!-- Resource jQuery -->
-
+<script src="/front/js/jquery.mixitup.min.js"></script>
+<script src="/front/js/main2.js"></script> <!-- Resource jQuery -->
 <script>
     $('.special.cards .image').dimmer({
         on: 'hover'

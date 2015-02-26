@@ -70,3 +70,17 @@
 .space-for-menu{
     height: 80px;
 }
+.faded{
+    box-shadow: 0 0 2px grey;
+    background-color: #D7D7D7;
+    opacity: 0.95;
+}
+.heading2{
+    color:white;
+    height:50px;
+    text-align:center;
+    font: italic bold 17px/30px Georgia, serif;
+}
+.paddingo{
+    padding-top: 0;
+}

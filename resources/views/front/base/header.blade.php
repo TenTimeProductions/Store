@@ -6,7 +6,6 @@
 <!-- END META SECTION -->
 <!-- BEGIN MANDATORY STYLE -->
 <link href="/back/css/icons/icons.min.css" rel="stylesheet">
-<link href="/back/css/bootstrap.min.css" rel="stylesheet">
 <link href="/back/css/plugins.min.css" rel="stylesheet">
 <link href="/back/css/style.min.css" rel="stylesheet">
 <link rel="stylesheet" href="/front/css/animate.css">

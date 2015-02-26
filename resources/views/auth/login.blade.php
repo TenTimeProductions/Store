@@ -2,13 +2,6 @@
 
 @section('header')
 
-	<script>
-		$(document).ready(function(){
-			$(".form").removeClass("loading");
-
-		});
-	</script>
-
 @endsection
 @section('content')
 	<div class="grayscale">
@@ -17,10 +10,10 @@
 		<div class="two wide column">
 		</div>
 
-		<div class="five wide column">
+		<div class="six wide column">
 			<div class="wow fadeInUp" data-wow-duration="0.7s">
-					<div class="panel panel-default">
-					<div class="panel-heading">Login</div>
+					<div class=" faded">
+					<div class="heading2">Login</div>
 					<div class="panel-body">
 						@if (count($errors) > 0)
 							<div class="alert alert-danger">
@@ -34,7 +27,7 @@
 						@endif
 						<!--aquiiiiiiiiiiiiiiiiiiiiiiiiiiiii-->
 
-								<div class="ui loading form segment">
+								<div class="ui form segment">
 									<form class="form-horizontal" role="form" method="POST" action="/auth/login">
 										<input type="hidden" name="_token" value="{{ csrf_token() }}">
 										<div class="field four-wide column">
@@ -48,27 +41,30 @@
 											</div>
 										</div>
 										<div class="inline field">
-											<div class="checkbox">
-												<label><input type="checkbox" name="remember">
-												Lembrar-me?</label>
+											<div class="ui checkbox">
+												<input type="checkbox" name="remember">
+													<label>Lembrar-me?</label>
 											</div>
 										</div>
-										<div class="ui submit button">Login</div>
-											<a href="/password/email">Esqueceu a sua password?</a>
+										<div class="fluid ui teal submit button">Login</div>
+											<a class="ui centered" href="/password/email">Esqueceu a sua password?</a>
 									</form>
 									<div class="field"></div>
-									<div class="field">
-										<div class="ui facebook button">
-											<i class="facebook icon"></i>
-
+									<div class="ui grid  centered row">
+										<div class="five wide column">
+											<div class="ui facebook button">
+												<i class="facebook icon"></i>
+											</div>
 										</div>
-										<div class="ui twitter button">
-											<i class="twitter icon	"></i>
-
+										<div class="five wide column">
+											<div class="ui twitter button">
+												<i class="twitter icon	"></i>
+											</div>
 										</div>
-										<div class="ui google plus button">
-											<i class="google plus icon"></i>
-
+										<div class="five wide column">
+											<div class="ui google plus button">
+												<i class="google plus icon"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -78,13 +74,13 @@
 		</div>
 				<!--LADO ESQUERDO REGISTAR-->
 
-		<div class="two wide column"></div>
+		<div class="one wide column"></div>
 
-			<div class="five wide column">
+			<div class="six wide column">
 				<div class="wow fadeInUp" data-wow-duration="0.7s">
 
-				<div class="panel panel-default">
-					<div class="panel-heading">Register</div>
+				<div class="panel faded">
+					<div class="panel-heading heading2">Register</div>
 					<div class="panel-body">
 						@if (count($errors) > 0)
 							<div class="alert alert-danger">
@@ -96,7 +92,7 @@
 								</ul>
 							</div>
 						@endif
-						<div class="ui loading form segment">
+						<div class="ui form segment">
 							<form class="form-horizontal" role="form" method="POST" action="/auth/login">
 								<input type="hidden" name="_token" value="{{ csrf_token() }}">
 								<div class="field four-wide column">
@@ -118,22 +114,24 @@
 									</div>
 								</div>
 								<div class="inline field">
-									<div class=" checkbox">
-										<label><input type="checkbox" class="vendedor" name="remember">
-										Sou Vendedor</label>
-									</div>
-									<div class="ui teal test labeled icon button">
-										<i class="icon user"></i> Sign-up
-									</div>
-
+										<div class="ui test labeled icon button">
+											<i class="icon user"></i><div class="ui checkbox paddingo"><input type="checkbox"><label>Sou Vendedor</label></div>
+										</div>
+											<input type="text" placeholder="O seu ID de Vendedor" id="id_vendedor">
 								</div>
-								<div class="ui test submit button">Registar</div>
+								<div class="fluid ui test teal submit button">Registar</div>
 							</form>
+
 						</div>
 					</div>
 				</div>
 		</div>
 	</div>
 </div>
+	<script>
+		$('.ui.checkbox').checkbox();
+		$(document).ready(function(){
 
+		});
+	</script>
 @endsection
