@@ -78,9 +78,9 @@ Route::get('/dashboard', 'DashboardController@index');                       //P
 //Route::get('dashboard/login', 'DashboardController@index');               //LogIn
 //Route::get('dashboard/logout', 'DashboardController@index');              //LogOut
 
-Route::get('/dashboard/account', 'DashboardController@account');             //Conta
-Route::get('/dashboard/account/edit', 'DashboardController@account_edit');          //Editar Conta
-//Route::get('dashboard/account/share', 'DashboardController@index');       //Partilhar conta de Vendedor
+Route::get('/dashboard/account', 'DashboardController@account');            //Conta
+Route::get('/dashboard/account/edit', 'DashboardController@account_edit');  //Editar Conta
+Route::get('dashboard/account/share', 'DashboardController@share');         //Partilhar conta de Vendedor
 
 //Route::get('dashboard/shop/going', 'DashboardController@index');          //Compras a decorrer
 //Route::get('dashboard/shop/complete', 'DashboardController@index');       //Compras completas

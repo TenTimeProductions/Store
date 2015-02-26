@@ -10,9 +10,6 @@
                         <a href="#"><i class="glyph-icon flaticon-account"></i><span class="sidebar-text">Conta</span><span class="fa arrow"></span></a>
                           <ul class="submenu collapse">
                             <li>
-                                <a href="/dashboard/account"><span class="sidebar-text">Perfil</span></a>
-                            </li>
-                            <li>
                                 <a href="/dashboard/account/edit"><i class="fa fa-pencil"></i><span class="sidebar-text">Editar</span></a>
                             </li>
                               <li>

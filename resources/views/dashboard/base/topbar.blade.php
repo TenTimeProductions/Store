@@ -27,26 +27,26 @@
                 <li class="dropdown" id="notifications-header">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                         <i class="glyph-icon flaticon-notifications"></i>
-                        <span class="badge badge-danger badge-header">6</span>
+                        <span class="badge badge-danger badge-header">3</span>
                     </a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-header clearfix">
-                            <p class="pull-left">Notifications</p>
+                            <p class="pull-left">Notificações</p>
                         </li>
                         <li>
                             <ul class="dropdown-menu-list withScroll" data-height="220">
                                 <li>
                                     <a href="#">
                                         <i class="fa fa-star p-r-10 f-18 c-orange"></i>
-                                        Steve have rated your photo
-                                        <span class="dropdown-time">Just now</span>
+                                        Nova Encomenda do João
+                                        <span class="dropdown-time">mesmo agora</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
                                         <i class="fa fa-heart p-r-10 f-18 c-red"></i>
-                                        John added you to his favs
-                                        <span class="dropdown-time">15 mins</span>
+                                        Encomenda recebida por Maria
+                                        <span class="dropdown-time">4 horas</span>
                                     </a>
                                 </li>
                                 <li>

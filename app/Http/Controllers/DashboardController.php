@@ -20,21 +20,29 @@ class DashboardController extends Controller {
     public function account(){
 
         $user = Users::find(1);
-        $page = 'Dashboard';
+        $page = 'Conta';
         return view('dashboard.pages.account', compact('user', 'page'));
     }
 
     public function account_edit(){
         $user = Users::find(1);
-        $page = 'Dashboard';
+        $page = 'Editar conta';
         return view('dashboard.pages.edit', compact('user', 'page'));
     }
 
     public function team(){
 
         $user = Users::find(1);
-        $page = 'Dashboard';
+        $page = 'Equipa';
         return view('dashboard.pages.team', compact('user', 'page'));
     }
 
+
+
+    public function share(){
+
+        $user = Users::find(1);
+        $page = 'Equipa';
+        return view('dashboard.pages.share', compact('user', 'page'));
+    }
 }
