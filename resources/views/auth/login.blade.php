@@ -49,11 +49,11 @@
 										</div>
 										<div class="inline field">
 											<div class="checkbox">
-												<input type="checkbox" name="remember">
-												<label>Lembrar-me?</label>
+												<label><input type="checkbox" name="remember">
+												Lembrar-me?</label>
 											</div>
 										</div>
-										<div class="ui submit test button">Login</div>
+										<div class="ui submit button">Login</div>
 											<a href="/password/email">Esqueceu a sua password?</a>
 									</form>
 									<div class="field"></div>
@@ -118,12 +118,16 @@
 									</div>
 								</div>
 								<div class="inline field">
-									<div class="ui checkbox">
-										<input type="checkbox" name="remember">
-										<label>Sou Vendedor</label>
+									<div class=" checkbox">
+										<label><input type="checkbox" class="vendedor" name="remember">
+										Sou Vendedor</label>
 									</div>
+									<div class="ui teal test labeled icon button">
+										<i class="icon user"></i> Sign-up
+									</div>
+
 								</div>
-								<div class="ui submit button">Registar</div>
+								<div class="ui test submit button">Registar</div>
 							</form>
 						</div>
 					</div>
@@ -131,15 +135,5 @@
 		</div>
 	</div>
 </div>
-	<script>
-		$(".checkbox").change(function() {
-			if(this.checked) {
-				$('.test.button')
-								.transition('horizontal flip', '500ms')
-				;
-			}
-		});
-
-	</script>
 
 @endsection
