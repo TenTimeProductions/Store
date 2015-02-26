@@ -158,48 +158,6 @@ function sidebarHeight() {
     }
 }
 
-
-/* Sidebar Statistics */
-if ($.fn.sparkline) {
-
-    sparkline1_color = '#159077';  
-    sparkline2_color = '#00699e';  
-    sparkline3_color = '#9e494e';
-
-    if($.cookie('style-color') == 'dark') { sparkline1_color = '#159077'; sparkline2_color = '#00699e'; sparkline3_color = '#9e494e';}   
-    if($.cookie('style-color') == 'red') { sparkline1_color = '#121212'; sparkline2_color = '#4AB2F8'; sparkline3_color = '#E0A832';}
-    if($.cookie('style-color') == 'blue') { sparkline1_color = '#E0A832'; sparkline2_color = '#D9534F'; sparkline3_color = '#121212';}
-    if($.cookie('style-color') == 'green') { sparkline1_color = '#E0A832'; sparkline2_color = '#D9534F'; sparkline3_color = '#121212';}
-    if($.cookie('style-color') == 'dark') { sparkline1_color = '#159077'; sparkline2_color = '#00699e'; sparkline3_color = '#9e494e';}   
-    
-    /* Sparklines can also take their values from the first argument passed to the sparkline() function */
-    var myvalues1 = [13, 14, 16, 15, 11, 14, 20, 14, 12, 16, 11, 17, 19, 16];
-    var myvalues2 = [14, 17, 16, 12, 18, 16, 22, 15, 14, 17, 11, 18, 11, 12];
-    var myvalues3 = [18, 14, 15, 14, 15, 12, 21, 16, 18, 14, 12, 15, 17, 19];
-    var sparkline1 = $('.dynamicbar1').sparkline(myvalues1, {
-        type: 'bar',
-        barColor: sparkline1_color,
-        barWidth: 4,
-        barSpacing: 1,
-        height: '28px'
-    });
-    var sparkline2 = $('.dynamicbar2').sparkline(myvalues2, {
-        type: 'bar',
-        barColor: sparkline2_color,
-        barWidth: 4,
-        barSpacing: 1,
-        height: '28px'
-    });
-    var sparkline3 = $('.dynamicbar3').sparkline(myvalues3, {
-        type: 'bar',
-        barColor: sparkline3_color,
-        barWidth: 4,
-        barSpacing: 1,
-        height: '28px'
-    });
-};
-
-
 //******************************** CHAT MENU SIDEBAR ******************************//
 function chatSidebar() {
 
@@ -256,45 +214,6 @@ function chatSidebar() {
     });
 }
 
-//******************************** SKIN COLORS SWITCH ******************************//
-
-var setColor = function (color) {
-    var color_ = 'color-'+color;
-    $('#theme-color').attr("href", "assets/css/colors/" + color_ + ".css");
-    if ($.cookie) {         
-        $.cookie('style-color', color);
-    }
-}
-
-/* Change theme color onclick on menu */
-$('.theme-color').click(function (e) {
-    e.preventDefault();
-    var color = $(this).attr("data-style");
-    setColor(color);
-    $('.theme-color').parent().removeClass("c-white w-600");
-    $(this).parent().addClass("c-white w-600");
-
-    if($.cookie('style-color') == 'dark') { sparkline1_color = '#159077';  sparkline2_color = '#00699e';  sparkline3_color = '#9e494e';}   
-    if($.cookie('style-color') == 'red') { sparkline1_color = '#E0A832'; sparkline2_color = '#4AB2F8'; sparkline3_color = '#121212';}
-    if($.cookie('style-color') == 'blue') { sparkline1_color = '#E0A832'; sparkline2_color = '#D9534F'; sparkline3_color = '#121212';}
-    if($.cookie('style-color') == 'green') { sparkline1_color = '#E0A832'; sparkline2_color = '#D9534F'; sparkline3_color = '#121212';}
-    if($.cookie('style-color') == 'cafe') { sparkline1_color = '#159077';  sparkline2_color = '#00699e';  sparkline3_color = '#9e494e';}   
-
-    /* We update Sparkline colors */
-    $('.dynamicbar1').sparkline(myvalues1, {type: 'bar', barColor: sparkline1_color, barWidth: 4, barSpacing: 1, height: '28px'});
-    $('.dynamicbar2').sparkline(myvalues2, {type: 'bar', barColor: sparkline2_color, barWidth: 4, barSpacing: 1, height: '28px'});
-    $('.dynamicbar3').sparkline(myvalues3, {type: 'bar', barColor: sparkline3_color, barWidth: 4, barSpacing: 1, height: '28px'});
-
-});
-
-/* If skin color selected in menu, we display it */
-if($.cookie('style-color')){
-    var color_ = 'color-'+$.cookie('style-color');
-    $('#theme-color').attr("href", "assets/css/colors/" + color_ + ".css");
-}
-else{
-    $('#theme-color').attr("href", "assets/css/colors/color-dark.css");
-}
 
 //*********************************** CUSTOM FUNCTIONS *****************************//
 
