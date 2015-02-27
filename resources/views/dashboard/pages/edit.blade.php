@@ -25,7 +25,7 @@
                                             <div class="col-md-12">
                                                 <ul class="list-unstyled profile-nav col-md-3">
                                                     <li>
-                                                        <img src="/img/avatars/avatar4_big.png" alt="avatar 4"/>
+                                                        <img src="{{ $user->avatar }}" class="img-responsive" alt="avatar 4"/>
                                                     </li>
                                                 </ul>
                                                 <div class="col-md-9">

@@ -4,5 +4,19 @@
 #main-content {
     width: 100%;
     padding: 10px 20px;
-    background-color: #D6D6D6;
+    background-color: #E7E7E7;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.panel, .tab-content {
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tab-pane  .panel{
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }

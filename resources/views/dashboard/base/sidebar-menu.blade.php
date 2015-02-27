@@ -2,20 +2,20 @@
 <!-- BEGIN MAIN SIDEBAR -->
         <nav id="sidebar">
             <ul class="sidebar-nav">
-                    <li class="active current">
+                    <li class="{{ Request::is('dashboard') ? 'active current' : '' }}" >
                         <a href="/dashboard/"><i class="fa fa-dashboard"></i><span class="sidebar-text">Dashboard</span></a>
                     </li>
                 <!-- TODO migas class current adicionar para mostrar qual a tab aberta -->
-                    <li>
+                    <li class="{{ Request::is('dashboard/account/edit') ? 'active current' : '' }}{{ Request::is('dashboard/account/promo') ? 'active current' : '' }}{{ Request::is('dashboard/account/share') ? 'active current' : '' }}" >
                         <a href="#"><i class="glyph-icon flaticon-account"></i><span class="sidebar-text">Conta</span><span class="fa arrow"></span></a>
-                          <ul class="submenu collapse">
-                            <li>
+                        <ul class="submenu collapse">
+                            <li  class="{{ Request::is('dashboard/account/edit') ? 'active current' : '' }}">
                                 <a href="/dashboard/account/edit"><i class="fa fa-pencil"></i><span class="sidebar-text">Editar</span></a>
                             </li>
-                              <li>
-                                  <a href="/dashboard/account/share"><i class="glyphicon glyphicon-gift"></i><span class="sidebar-text">Cupões</span></a>
-                              </li>
-                            <li>
+                            <li  class="{{ Request::is('dashboard/account/promo') ? 'active current' : '' }}">
+                                <a href="/dashboard/account/promo"><i class="glyphicon glyphicon-gift"></i><span class="sidebar-text">Cupões</span></a>
+                            </li>
+                            <li class="{{ Request::is('dashboard/account/share') ? 'active current' : '' }}">
                                 <a href="/dashboard/account/share"><i class="fa fa-share"></i><span class="sidebar-text">Partilhar</span></a>
                             </li>
                             <li>
@@ -23,35 +23,35 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="{{ Request::is('dashboard/shop/going') ? 'active current' : '' }}{{ Request::is('dashboard/shop/complete') ? 'active current' : '' }}{{ Request::is('dashboard/shop/standby') ? 'active current' : '' }}">
                         <a href="#"><i class="glyph-icon flaticon-gallery"></i><span class="sidebar-text">Encomendas</span><span class="fa arrow"></span></a>
                         <ul class="submenu collapse">
-                            <li>
+                            <li class="{{ Request::is('dashboard/shop/going') ? 'active current' : '' }}">
                                 <a href="/dashboard/shop/going"><span class="sidebar-text">A Decorrer</span></a>
                             </li>
-                            <li>
+                            <li class="{{ Request::is('dashboard/shop/complete') ? 'active current' : '' }}">
                                 <a href="/dashboard/shop/complete"><span class="sidebar-text">Completas</span></a>
                             </li>
-                            <li>
+                            <li class="{{ Request::is('dashboard/shop/standby') ? 'active current' : '' }}">
                                 <a href="/dashboard/shop/standby"><span class="sidebar-text">Pendentes</span></a>
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="{{ Request::is('dashboard/team') ? 'active current' : '' }}">
                         <a href="/dashboard/team"><i class="fa fa-group"></i><span class="sidebar-text">Equipa</span></a>
                     </li>
-                    <li>
+                    <li class="{{ Request::is('dashboard/email') ? 'active current' : '' }}{{ Request::is('dashboard/email/new') ? 'active current' : '' }}">
                         <a href="#"><i class="glyph-icon flaticon-email"></i><span class="sidebar-text">Email</span><span class="fa arrow"></span></a>
                         <ul class="submenu collapse">
-                            <li>
+                            <li class="{{ Request::is('dashboard/email') ? 'active current' : '' }}">
                                 <a href="/dashboard/email"><span class="sidebar-text">Caixa de Entrada</span></a>
                             </li>
-                            <li>
+                            <li class="{{ Request::is('dashboard/email/new') ? 'active current' : '' }}">
                                 <a href="/dashboard/email/new"><span class="sidebar-text">Nova Mensagem</span></a>
                             </li>
                         </ul>
                     </li>
-                <li>
+                <li class="{{ Request::is('dashboard/events') ? 'active current' : '' }}">
                     <a href="/dashboard/events"><i class="fa fa-calendar"></i><span class="sidebar-text">Eventos</span></a>
                 </li>
                     <li>

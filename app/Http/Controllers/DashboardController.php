@@ -10,7 +10,9 @@ use App\Users;
 class DashboardController extends Controller {
 
     public function index(){
-
+       // $uri = Request::path();
+        //dd($uri);
+        //$url = Request::url();
         $user = Users::find(1);
         $page = 'Dashboard';
 

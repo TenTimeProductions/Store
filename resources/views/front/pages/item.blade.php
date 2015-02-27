@@ -1,10 +1,6 @@
 @extends('front.master')
 @section('header')
     <link rel="stylesheet" href="/front/css/style.css"> <!-- Resource style -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="/front/css/reset.css"> <!-- CSS reset -->
-
     <script src="/front/js/modernizr2.js"></script> <!-- Modernizr -->
     <style>
         .overflowH{

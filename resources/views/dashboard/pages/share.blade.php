@@ -10,20 +10,45 @@
 @section('content')
     <div id="main-content">
         <div class="page-title"> <i class="icon-custom-left"></i>
-            <h3><strong>Membros da Equipa</strong></h3>
+            <h3><strong>Parilha do vendedor</strong></h3>
         </div>
         <hr/>
         <div class="row">
-            <div class="col-md-4">
-                <button type="button" class="btn btn-sm btn-icon btn-rounded btn-info"><i class="fa fa-twitter"></i>
-                </button>
-                <button type="button" class="btn btn-sm btn-icon btn-rounded btn-primary"><i class="fa fa-facebook"></i>
-                </button>
-                <button type="button" class="btn btn-sm btn-icon btn-rounded btn-danger"><i class="fa fa-google-plus"></i>
-                </button>
-                <button type="button" class="btn btn-sm btn-icon btn-rounded btn-default"><i class="fa fa-power-off"></i>
-                </button>
-                <br>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 col-xs-12">
+                                <p><strong>Dados do vendedor:</strong></p>
+                                <p><strong>Nome:</strong><br/> {{ $user->name }}</p>
+                                <p><strong>Link de Partilha:</strong><br/> http://fm-store.com/inv/<strong>{{ $user->username }}</strong></p>
+                                <br>
+                                <!-- I got these buttons from simplesharebuttons.com -->
+                                <div id="share-buttons">
+                                    <!-- Facebook -->
+                                    <a href="http://www.facebook.com/sharer.php?u=http://fm-store.com/inv/{{ $user->username }}" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-icon btn-rounded btn-primary"><i class="fa fa-facebook"></i></button>
+                                    </a>
+                                    <!-- Twitter -->
+                                    <a href="http://twitter.com/share?url=http://fm-store.com/inv/{{ $user->username }}&text=Simple Share Buttons&hashtags=FMGroupStore" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-icon btn-rounded btn-info"><i class="fa fa-twitter"></i></button>
+                                    </a>
+                                    <!-- Google+ -->
+                                    <a href="https://plus.google.com/share?url=http://fm-store.com/inv/{{ $user->username }}" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-icon btn-rounded btn-danger"><i class="fa fa-google-plus"></i></button>
+                                    </a>
+                                    <!-- LinkedIn -->
+                                    <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://fm-store.com/inv/{{ $user->username }}" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-icon btn-rounded btn-default"><i class="fa fa-linkedin"></i></button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <p><strong>Avatar:</strong> <img src="{{ $user->avatar }}" alt="" class="img-responsive"/></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="panel panel-default">
@@ -34,19 +59,6 @@
                                 <br>
                                 <form id="form1" class="form-horizontal" data-parsley-validate="" novalidate="">
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label">Titulo <span class="asterisk">*</span>
-                                        </label>
-                                        <div class="col-sm-9">
-                                            <input type="text" data-parsley-minlength="3" class="form-control" required="" data-parsley-id="9874"><ul class="parsley-errors-list" id="parsley-id-9874"></ul>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label">URL</label>
-                                        <div class="col-sm-9">
-                                            <input type="url" name="url" class="form-control" data-parsley-type="url" required="" data-parsley-id="5682"><ul class="parsley-errors-list" id="parsley-id-5682"></ul>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
                                         <label class="col-sm-3 control-label">Comment <span class="asterisk">*</span>
                                         </label>
                                         <div class="col-sm-9">
@@ -55,8 +67,8 @@
                                     </div>
                                     <div class="col-sm-9 col-sm-offset-3">
                                         <div class="pull-right">
-                                            <button type="submit" class="btn btn-primary m-b-10">Submit</button>
-                                            <button type="reset" class="btn btn-default m-b-10">Cancel</button>
+                                            <button type="submit" class="btn btn-primary m-b-10">Partilhar</button>
+                                            <button type="reset" class="btn btn-default m-b-10">Cancelar</button>
                                         </div>
                                     </div>
                                 </form>

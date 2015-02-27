@@ -1,5 +1,8 @@
 @extends('dashboard.master')
 
+@section('title')
+    <title>{{ $user->name }} | {{$page}} - FM Group</title>
+@endsection
 @section('content')
     <div id="main-content">
         <div class="page-title"> <i class="icon-custom-left"></i>

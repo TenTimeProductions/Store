@@ -1,7 +1,7 @@
 @extends('dashboard.master')
 
 @section('title')
-    <title>Equipa</title>
+    <title>{{ $user->name }} | {{$page}} - FM Group</title>
 @endsection
 
 @section('header')

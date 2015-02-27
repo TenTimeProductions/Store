@@ -46,8 +46,11 @@
 													<label>Lembrar-me?</label>
 											</div>
 										</div>
-										<div class="fluid ui teal submit button">Login</div>
-											<a class="ui centered" href="/password/email">Esqueceu a sua password?</a>
+
+                                        <button type="submit" class="fluid ui teal submit button">
+                                            Login
+                                        </button>
+                                        <a class="ui centered" href="/password/email">Esqueceu a sua password?</a>
 									</form>
 									<div class="field"></div>
 									<div class="ui grid  centered row">
