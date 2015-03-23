@@ -12,7 +12,7 @@
 */
 
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'ProductController@menu');
 
 Route::get('home', 'HomeController@index');
 
@@ -57,10 +57,9 @@ Route::get('inv/{username}', 'InviteController@invite'); //TODO adicionar tbm um
 
 
 //Route::get('store/home', 'ProductController@index');
-//Route::get('store/detail/{id}/{name}', 'ProductController@index');
+Route::get('store/detail/{id}', 'ProductController@detail');                //mostra produto detalhado
 //Route::get('store/cart', 'ProductController@index');
 //Route::get('store/checkout', 'ProductController@index');
-//Route::get('store/item', 'ProductController@index');
 //Route::get('store/item', 'ProductController@index');
 //Route::get('store/search', 'ProductController@index');
 //Route::get('store/search/{word}', 'ProductController@index');
